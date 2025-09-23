@@ -1,0 +1,31 @@
+services:
+  skytold-software:
+    image: robotics:jammy
+    container_name: ros2-humble
+    stdin_open: true
+    tty: true
+    command: ["bash"]
+
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=all
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+      - XAUTHORITY=${XAUTHORITY:-/tmp/.docker.xauth}
+      - PULSE_SERVER=unix:/run/user/1000/pulse/native
+      - ROS_DOMAIN_ID=42
+
+    volumes:
+      - ./workspace:/home/skytold/workspace
+      - /run/user/1000/pulse:/run/user/1000/pulse
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /dev:/dev
+
+    ports:
+      - "8000-8010:8000-8010"
+      - "9000-9010:9000-9010"
+      
+    devices:
+      - /dev/snd:/dev/snd
+      
+    
