@@ -1,0 +1,46 @@
+[01m[K/home/skytold/workspace/amr_ws/src/amr_cpp_examples/src/simple_listener.cpp:17:11:[m[K [01;31m[Kerror: [m[K‘[01m[KListener[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a template type
+   17 |   rclcpp::[01;31m[KListener[m[K<std_msgs::msg::String>::SharedPtr sub_;
+      |           [01;31m[K^~~~~~~~[m[K
+[01m[K/home/skytold/workspace/amr_ws/src/amr_cpp_examples/src/simple_listener.cpp:[m[K In constructor ‘[01m[KSimpleListener::SimpleListener()[m[K’:
+[01m[K/home/skytold/workspace/amr_ws/src/amr_cpp_examples/src/simple_listener.cpp:12:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_[m[K’ was not declared in this scope
+   12 |     [01;31m[Ksub_[m[K = create_listener<std_msgs::msg::String>(
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/skytold/workspace/amr_ws/src/amr_cpp_examples/src/simple_listener.cpp:12:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kcreate_listener[m[K’ was not declared in this scope; did you mean ‘[01m[Kcreate_client[m[K’?
+   12 |     sub_ = [01;31m[Kcreate_listener[m[K<std_msgs::msg::String>(
+      |            [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |            [32m[Kcreate_client[m[K
+[01m[K/home/skytold/workspace/amr_ws/src/amr_cpp_examples/src/simple_listener.cpp:12:49:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   12 |     sub_ = create_listener<std_msgs::msg::String[01;31m[K>[m[K(
+      |                                                 [01;31m[K^[m[K
+[01m[K/home/skytold/workspace/amr_ws/src/amr_cpp_examples/src/simple_listener.cpp:13:9:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   13 |         [01;35m[K"chatter"[m[K, 10, std::bind(&SimpleSubscriber::msgCallback, this, _1));
+      |         [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/skytold/workspace/amr_ws/src/amr_cpp_examples/src/simple_listener.cpp:13:35:[m[K [01;31m[Kerror: [m[K‘[01m[KSimpleSubscriber[m[K’ has not been declared
+   13 |         "chatter", 10, std::bind(&[01;31m[KSimpleSubscriber[m[K::msgCallback, this, _1));
+      |                                   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/skytold/workspace/amr_ws/src/amr_cpp_examples/src/simple_talker.cpp:27:11:[m[K [01;31m[Kerror: [m[K‘[01m[KTalker[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a template type
+   27 |   rclcpp::[01;31m[KTalker[m[K<std_msgs::msg::String>::SharedPtr pub_;
+      |           [01;31m[K^~~~~~[m[K
+[01m[K/home/skytold/workspace/amr_ws/src/amr_cpp_examples/src/simple_talker.cpp:[m[K In constructor ‘[01m[KSimpleTalker::SimpleTalker()[m[K’:
+[01m[K/home/skytold/workspace/amr_ws/src/amr_cpp_examples/src/simple_talker.cpp:14:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_[m[K’ was not declared in this scope
+   14 |     [01;31m[Kpub_[m[K = create_talker<std_msgs::msg::String>("chatter", 10);
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/skytold/workspace/amr_ws/src/amr_cpp_examples/src/simple_talker.cpp:14:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kcreate_talker[m[K’ was not declared in this scope
+   14 |     pub_ = [01;31m[Kcreate_talker[m[K<std_msgs::msg::String>("chatter", 10);
+      |            [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/skytold/workspace/amr_ws/src/amr_cpp_examples/src/simple_talker.cpp:14:47:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   14 |     pub_ = create_talker<std_msgs::msg::String[01;31m[K>[m[K("chatter", 10);
+      |                                               [01;31m[K^[m[K
+[01m[K/home/skytold/workspace/amr_ws/src/amr_cpp_examples/src/simple_talker.cpp:14:49:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+   14 |     pub_ = create_talker<std_msgs::msg::String>([01;35m[K"chatter"[m[K, 10);
+      |                                                 [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/skytold/workspace/amr_ws/src/amr_cpp_examples/src/simple_talker.cpp:[m[K In member function ‘[01m[Kvoid SimpleTalker::timerCallback()[m[K’:
+[01m[K/home/skytold/workspace/amr_ws/src/amr_cpp_examples/src/simple_talker.cpp:23:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_[m[K’ was not declared in this scope
+   23 |     [01;31m[Kpub_[m[K->talk(message);
+      |     [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/simple_listener.dir/build.make:76: CMakeFiles/simple_listener.dir/src/simple_listener.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/simple_listener.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/simple_talker.dir/build.make:76: CMakeFiles/simple_talker.dir/src/simple_talker.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/simple_talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

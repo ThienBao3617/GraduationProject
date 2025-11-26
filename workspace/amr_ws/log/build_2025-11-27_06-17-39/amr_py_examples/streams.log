@@ -1,0 +1,27 @@
+[0.369s] Invoking command in '/home/skytold/workspace/amr_ws/src/amr_py_examples': PYTHONPATH=/home/skytold/workspace/amr_ws/build/amr_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skytold/workspace/amr_ws/install/amr_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amr_py_examples build --build-base /home/skytold/workspace/amr_ws/build/amr_py_examples/build install --record /home/skytold/workspace/amr_ws/build/amr_py_examples/install.log --single-version-externally-managed install_data
+[0.508s] running egg_info
+[0.508s] writing ../../build/amr_py_examples/amr_py_examples.egg-info/PKG-INFO
+[0.508s] writing dependency_links to ../../build/amr_py_examples/amr_py_examples.egg-info/dependency_links.txt
+[0.508s] writing entry points to ../../build/amr_py_examples/amr_py_examples.egg-info/entry_points.txt
+[0.509s] writing requirements to ../../build/amr_py_examples/amr_py_examples.egg-info/requires.txt
+[0.509s] writing top-level names to ../../build/amr_py_examples/amr_py_examples.egg-info/top_level.txt
+[0.510s] reading manifest file '../../build/amr_py_examples/amr_py_examples.egg-info/SOURCES.txt'
+[0.510s] writing manifest file '../../build/amr_py_examples/amr_py_examples.egg-info/SOURCES.txt'
+[0.510s] running build
+[0.510s] running build_py
+[0.510s] copying amr_py_examples/simple_listener.py -> /home/skytold/workspace/amr_ws/build/amr_py_examples/build/lib/amr_py_examples
+[0.510s] copying amr_py_examples/simple_talker.py -> /home/skytold/workspace/amr_ws/build/amr_py_examples/build/lib/amr_py_examples
+[0.510s] running install
+[0.511s] running install_lib
+[0.511s] copying /home/skytold/workspace/amr_ws/build/amr_py_examples/build/lib/amr_py_examples/simple_listener.py -> /home/skytold/workspace/amr_ws/install/amr_py_examples/lib/python3.10/site-packages/amr_py_examples
+[0.511s] copying /home/skytold/workspace/amr_ws/build/amr_py_examples/build/lib/amr_py_examples/simple_talker.py -> /home/skytold/workspace/amr_ws/install/amr_py_examples/lib/python3.10/site-packages/amr_py_examples
+[0.512s] byte-compiling /home/skytold/workspace/amr_ws/install/amr_py_examples/lib/python3.10/site-packages/amr_py_examples/simple_listener.py to simple_listener.cpython-310.pyc
+[0.512s] byte-compiling /home/skytold/workspace/amr_ws/install/amr_py_examples/lib/python3.10/site-packages/amr_py_examples/simple_talker.py to simple_talker.cpython-310.pyc
+[0.512s] running install_data
+[0.512s] running install_egg_info
+[0.513s] removing '/home/skytold/workspace/amr_ws/install/amr_py_examples/lib/python3.10/site-packages/amr_py_examples-0.0.0-py3.10.egg-info' (and everything under it)
+[0.513s] Copying ../../build/amr_py_examples/amr_py_examples.egg-info to /home/skytold/workspace/amr_ws/install/amr_py_examples/lib/python3.10/site-packages/amr_py_examples-0.0.0-py3.10.egg-info
+[0.514s] running install_scripts
+[0.528s] Installing simple_listener script to /home/skytold/workspace/amr_ws/install/amr_py_examples/lib/amr_py_examples
+[0.528s] Installing simple_talker script to /home/skytold/workspace/amr_ws/install/amr_py_examples/lib/amr_py_examples
+[0.528s] writing list of installed files to '/home/skytold/workspace/amr_ws/build/amr_py_examples/install.log'

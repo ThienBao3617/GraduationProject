@@ -4,17 +4,17 @@
 
 using std::placeholders::_1;
 
-class SimpleListener : public rclcpp::Node
+class SimpleSubscriber : public rclcpp::Node
 {
 public:
-  SimpleListener() : Node("simple_listener")
+  SimpleSubscriber() : Node("simple_subscriber")
   {
-    sub_ = create_listener<std_msgs::msg::String>(
+    sub_ = create_subscription<std_msgs::msg::String>(
         "chatter", 10, std::bind(&SimpleSubscriber::msgCallback, this, _1));
   }
 
 private:
-  rclcpp::Listener<std_msgs::msg::String>::SharedPtr sub_;
+  rclcpp::Subscription<std_msgs::msg::String>::SharedPtr sub_;
 
   void msgCallback(const std_msgs::msg::String &msg) const
   {
@@ -26,7 +26,7 @@ private:
 int main(int argc, char * argv[])
 {
   rclcpp::init(argc, argv);
-  rclcpp::spin(std::make_shared<SimpleListener>());
+  rclcpp::spin(std::make_shared<SimpleSubscriber>());
   rclcpp::shutdown();
   return 0;
 }

@@ -1,0 +1,22 @@
+[0.381s] Invoking command in '/home/skytold/workspace/amr_ws/src/amr_py_examples': PYTHONPATH=/home/skytold/workspace/amr_ws/build/amr_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skytold/workspace/amr_ws/install/amr_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amr_py_examples build --build-base /home/skytold/workspace/amr_ws/build/amr_py_examples/build install --record /home/skytold/workspace/amr_ws/build/amr_py_examples/install.log --single-version-externally-managed install_data
+[0.525s] running egg_info
+[0.525s] writing ../../build/amr_py_examples/amr_py_examples.egg-info/PKG-INFO
+[0.525s] writing dependency_links to ../../build/amr_py_examples/amr_py_examples.egg-info/dependency_links.txt
+[0.525s] writing entry points to ../../build/amr_py_examples/amr_py_examples.egg-info/entry_points.txt
+[0.525s] writing requirements to ../../build/amr_py_examples/amr_py_examples.egg-info/requires.txt
+[0.525s] writing top-level names to ../../build/amr_py_examples/amr_py_examples.egg-info/top_level.txt
+[0.527s] reading manifest file '../../build/amr_py_examples/amr_py_examples.egg-info/SOURCES.txt'
+[0.527s] writing manifest file '../../build/amr_py_examples/amr_py_examples.egg-info/SOURCES.txt'
+[0.527s] running build
+[0.527s] running build_py
+[0.528s] running install
+[0.528s] running install_lib
+[0.529s] running install_data
+[0.529s] running install_egg_info
+[0.530s] removing '/home/skytold/workspace/amr_ws/install/amr_py_examples/lib/python3.10/site-packages/amr_py_examples-0.0.0-py3.10.egg-info' (and everything under it)
+[0.530s] Copying ../../build/amr_py_examples/amr_py_examples.egg-info to /home/skytold/workspace/amr_ws/install/amr_py_examples/lib/python3.10/site-packages/amr_py_examples-0.0.0-py3.10.egg-info
+[0.530s] running install_scripts
+[0.546s] Installing simple_listener script to /home/skytold/workspace/amr_ws/install/amr_py_examples/lib/amr_py_examples
+[0.546s] Installing simple_talker script to /home/skytold/workspace/amr_ws/install/amr_py_examples/lib/amr_py_examples
+[0.546s] writing list of installed files to '/home/skytold/workspace/amr_ws/build/amr_py_examples/install.log'
+[0.563s] Invoked command in '/home/skytold/workspace/amr_ws/src/amr_py_examples' returned '0': PYTHONPATH=/home/skytold/workspace/amr_ws/build/amr_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skytold/workspace/amr_ws/install/amr_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amr_py_examples build --build-base /home/skytold/workspace/amr_ws/build/amr_py_examples/build install --record /home/skytold/workspace/amr_ws/build/amr_py_examples/install.log --single-version-externally-managed install_data

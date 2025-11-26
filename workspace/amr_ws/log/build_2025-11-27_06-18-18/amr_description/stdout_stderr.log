@@ -1,0 +1,16 @@
+-- Install configuration: ""
+-- Installing: /home/skytold/workspace/amr_ws/install/amr_description/share/ament_index/resource_index/package_run_dependencies/amr_description
+-- Installing: /home/skytold/workspace/amr_ws/install/amr_description/share/ament_index/resource_index/parent_prefix_path/amr_description
+-- Installing: /home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/environment/ament_prefix_path.sh
+-- Installing: /home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/environment/ament_prefix_path.dsv
+-- Installing: /home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/environment/path.sh
+-- Installing: /home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/environment/path.dsv
+-- Installing: /home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/local_setup.bash
+-- Installing: /home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/local_setup.sh
+-- Installing: /home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/local_setup.zsh
+-- Installing: /home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/local_setup.dsv
+-- Installing: /home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/package.dsv
+-- Installing: /home/skytold/workspace/amr_ws/install/amr_description/share/ament_index/resource_index/packages/amr_description
+-- Installing: /home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/cmake/amr_descriptionConfig.cmake
+-- Installing: /home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/cmake/amr_descriptionConfig-version.cmake
+-- Installing: /home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/package.xml

@@ -9,11 +9,11 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 
-add_executable(simple_talker src/simple_talker.cpp)
-ament_target_dependencies(simple_talker rclcpp std_msgs)
+add_executable(simple_publisher src/simple_publisher.cpp)
+ament_target_dependencies(simple_publisher rclcpp std_msgs)
 
-add_executable(simple_listener src/simple_listener.cpp)
-ament_target_dependencies(simple_listener rclcpp std_msgs)
+add_executable(simple_subscriber src/simple_subscriber.cpp)
+ament_target_dependencies(simple_subscriber rclcpp std_msgs)
 
 install(TARGETS
   simple_publisher

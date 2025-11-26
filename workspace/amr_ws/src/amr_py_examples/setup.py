@@ -24,8 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'simple_talker = amr_py_examples.simple_talker:main',
-            'simple_listener = amr_py_examples.simple_listener:main',
+            'simple_publisher = amr_py_examples.simple_publisher:main',
+            'simple_subscriber = amr_py_examples.simple_subscriber:main',
         ],
     },
 )

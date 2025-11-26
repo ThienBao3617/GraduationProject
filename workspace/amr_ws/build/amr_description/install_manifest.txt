@@ -1,0 +1,15 @@
+/home/skytold/workspace/amr_ws/install/amr_description/share/ament_index/resource_index/package_run_dependencies/amr_description
+/home/skytold/workspace/amr_ws/install/amr_description/share/ament_index/resource_index/parent_prefix_path/amr_description
+/home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/environment/ament_prefix_path.sh
+/home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/environment/ament_prefix_path.dsv
+/home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/environment/path.sh
+/home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/environment/path.dsv
+/home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/local_setup.bash
+/home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/local_setup.sh
+/home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/local_setup.zsh
+/home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/local_setup.dsv
+/home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/package.dsv
+/home/skytold/workspace/amr_ws/install/amr_description/share/ament_index/resource_index/packages/amr_description
+/home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/cmake/amr_descriptionConfig.cmake
+/home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/cmake/amr_descriptionConfig-version.cmake
+/home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/package.xml
