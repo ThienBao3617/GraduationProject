@@ -1,0 +1,11 @@
+/home/skytold/workspace/amr_ws/build/amr_cpp_examples/CMakeFiles/uninstall.dir
+/home/skytold/workspace/amr_ws/build/amr_cpp_examples/CMakeFiles/amr_cpp_examples_uninstall.dir
+/home/skytold/workspace/amr_ws/build/amr_cpp_examples/CMakeFiles/simple_publisher.dir
+/home/skytold/workspace/amr_ws/build/amr_cpp_examples/CMakeFiles/simple_subscriber.dir
+/home/skytold/workspace/amr_ws/build/amr_cpp_examples/CMakeFiles/test.dir
+/home/skytold/workspace/amr_ws/build/amr_cpp_examples/CMakeFiles/edit_cache.dir
+/home/skytold/workspace/amr_ws/build/amr_cpp_examples/CMakeFiles/rebuild_cache.dir
+/home/skytold/workspace/amr_ws/build/amr_cpp_examples/CMakeFiles/list_install_components.dir
+/home/skytold/workspace/amr_ws/build/amr_cpp_examples/CMakeFiles/install.dir
+/home/skytold/workspace/amr_ws/build/amr_cpp_examples/CMakeFiles/install/local.dir
+/home/skytold/workspace/amr_ws/build/amr_cpp_examples/CMakeFiles/install/strip.dir

@@ -1,0 +1,129 @@
+[0.000000] (-) TimerEvent: {}
+[0.000250] (amr_cpp_examples) JobQueued: {'identifier': 'amr_cpp_examples', 'dependencies': OrderedDict()}
+[0.000271] (amr_py_examples) JobQueued: {'identifier': 'amr_py_examples', 'dependencies': OrderedDict()}
+[0.000472] (amr_cpp_examples) JobStarted: {'identifier': 'amr_cpp_examples'}
+[0.004924] (amr_py_examples) JobStarted: {'identifier': 'amr_py_examples'}
+[0.009021] (amr_cpp_examples) JobProgress: {'identifier': 'amr_cpp_examples', 'progress': 'cmake'}
+[0.009452] (amr_cpp_examples) JobProgress: {'identifier': 'amr_cpp_examples', 'progress': 'build'}
+[0.009900] (amr_cpp_examples) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/skytold/workspace/amr_ws/build/amr_cpp_examples', '--', '-j20', '-l20'], 'cwd': '/home/skytold/workspace/amr_ws/build/amr_cpp_examples', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', '06b09900fdd4'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/skytold'), ('OLDPWD', '/home/skytold/workspace/amr_ws/install'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/home/skytold/workspace/amr_ws/install'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/run/user/1000/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '1'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YI6ED3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/skytold/workspace/amr_ws/install/amr_py_examples:/home/skytold/workspace/amr_ws/install/amr_cpp_examples:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/skytold/workspace/amr_ws/build/amr_cpp_examples'), ('PYTHONPATH', '/home/skytold/workspace/amr_ws/install/amr_py_examples/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/skytold/workspace/amr_ws/install/amr_cpp_examples:/home/skytold/workspace/amr_ws/install/amr_py_examples:/opt/ros/humble')]), 'shell': False}
+[0.033629] (amr_cpp_examples) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099651] (-) TimerEvent: {}
+[0.126781] (amr_cpp_examples) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.146124] (amr_cpp_examples) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.147691] (amr_cpp_examples) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.151561] (amr_cpp_examples) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.157799] (amr_cpp_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.165900] (amr_cpp_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.187234] (amr_cpp_examples) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.188161] (amr_cpp_examples) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.199707] (-) TimerEvent: {}
+[0.271534] (amr_cpp_examples) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.299906] (-) TimerEvent: {}
+[0.351695] (amr_cpp_examples) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.359038] (amr_cpp_examples) StdoutLine: {'line': b'-- Generating done\n'}
+[0.362075] (amr_cpp_examples) StdoutLine: {'line': b'-- Build files have been written to: /home/skytold/workspace/amr_ws/build/amr_cpp_examples\n'}
+[0.370276] (amr_py_examples) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/amr_py_examples', 'build', '--build-base', '/home/skytold/workspace/amr_ws/build/amr_py_examples/build', 'install', '--record', '/home/skytold/workspace/amr_ws/build/amr_py_examples/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/skytold/workspace/amr_ws/src/amr_py_examples', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'HOSTNAME': '06b09900fdd4', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/skytold', 'OLDPWD': '/home/skytold/workspace/amr_ws/install', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'COLCON_PREFIX_PATH': '/home/skytold/workspace/amr_ws/install', 'ROS_DISTRO': 'humble', 'PULSE_SERVER': 'unix:/run/user/1000/pulse/native', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '1', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YI6ED3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '42', 'AMENT_PREFIX_PATH': '/home/skytold/workspace/amr_ws/install/amr_py_examples:/home/skytold/workspace/amr_ws/install/amr_cpp_examples:/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/skytold/workspace/amr_ws/build/amr_py_examples', 'PYTHONPATH': '/home/skytold/workspace/amr_ws/build/amr_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skytold/workspace/amr_ws/install/amr_py_examples/lib/python3.10/site-packages:/home/skytold/workspace/amr_ws/install/amr_py_examples/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/skytold/workspace/amr_ws/install/amr_cpp_examples'}, 'shell': False}
+[0.385518] (amr_cpp_examples) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target simple_publisher\x1b[0m\n'}
+[0.394340] (amr_cpp_examples) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o\x1b[0m\n'}
+[0.398643] (amr_cpp_examples) StdoutLine: {'line': b'[ 75%] Built target simple_publisher\n'}
+[0.400019] (-) TimerEvent: {}
+[0.500380] (-) TimerEvent: {}
+[0.511987] (amr_py_examples) StdoutLine: {'line': b'running egg_info\n'}
+[0.512425] (amr_py_examples) StdoutLine: {'line': b'writing ../../build/amr_py_examples/amr_py_examples.egg-info/PKG-INFO\n'}
+[0.512590] (amr_py_examples) StdoutLine: {'line': b'writing dependency_links to ../../build/amr_py_examples/amr_py_examples.egg-info/dependency_links.txt\n'}
+[0.512714] (amr_py_examples) StdoutLine: {'line': b'writing entry points to ../../build/amr_py_examples/amr_py_examples.egg-info/entry_points.txt\n'}
+[0.512913] (amr_py_examples) StdoutLine: {'line': b'writing requirements to ../../build/amr_py_examples/amr_py_examples.egg-info/requires.txt\n'}
+[0.512990] (amr_py_examples) StdoutLine: {'line': b'writing top-level names to ../../build/amr_py_examples/amr_py_examples.egg-info/top_level.txt\n'}
+[0.513809] (amr_py_examples) StdoutLine: {'line': b"reading manifest file '../../build/amr_py_examples/amr_py_examples.egg-info/SOURCES.txt'\n"}
+[0.514371] (amr_py_examples) StdoutLine: {'line': b"writing manifest file '../../build/amr_py_examples/amr_py_examples.egg-info/SOURCES.txt'\n"}
+[0.514496] (amr_py_examples) StdoutLine: {'line': b'running build\n'}
+[0.514612] (amr_py_examples) StdoutLine: {'line': b'running build_py\n'}
+[0.514708] (amr_py_examples) StdoutLine: {'line': b'running install\n'}
+[0.514820] (amr_py_examples) StdoutLine: {'line': b'running install_lib\n'}
+[0.515550] (amr_py_examples) StdoutLine: {'line': b'running install_data\n'}
+[0.515698] (amr_py_examples) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.516755] (amr_py_examples) StdoutLine: {'line': b"removing '/home/skytold/workspace/amr_ws/install/amr_py_examples/lib/python3.10/site-packages/amr_py_examples-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.516976] (amr_py_examples) StdoutLine: {'line': b'Copying ../../build/amr_py_examples/amr_py_examples.egg-info to /home/skytold/workspace/amr_ws/install/amr_py_examples/lib/python3.10/site-packages/amr_py_examples-0.0.0-py3.10.egg-info\n'}
+[0.517350] (amr_py_examples) StdoutLine: {'line': b'running install_scripts\n'}
+[0.531107] (amr_py_examples) StdoutLine: {'line': b'Installing simple_publisher script to /home/skytold/workspace/amr_ws/install/amr_py_examples/lib/amr_py_examples\n'}
+[0.531336] (amr_py_examples) StdoutLine: {'line': b'Installing simple_subscriber script to /home/skytold/workspace/amr_ws/install/amr_py_examples/lib/amr_py_examples\n'}
+[0.531476] (amr_py_examples) StdoutLine: {'line': b"writing list of installed files to '/home/skytold/workspace/amr_ws/build/amr_py_examples/install.log'\n"}
+[0.546097] (amr_py_examples) CommandEnded: {'returncode': 0}
+[0.555463] (amr_py_examples) JobEnded: {'identifier': 'amr_py_examples', 'rc': 0}
+[0.600505] (-) TimerEvent: {}
+[0.700858] (-) TimerEvent: {}
+[0.801223] (-) TimerEvent: {}
+[0.901589] (-) TimerEvent: {}
+[1.001971] (-) TimerEvent: {}
+[1.102278] (-) TimerEvent: {}
+[1.202627] (-) TimerEvent: {}
+[1.302985] (-) TimerEvent: {}
+[1.403346] (-) TimerEvent: {}
+[1.503725] (-) TimerEvent: {}
+[1.604090] (-) TimerEvent: {}
+[1.704462] (-) TimerEvent: {}
+[1.804821] (-) TimerEvent: {}
+[1.905112] (-) TimerEvent: {}
+[2.005447] (-) TimerEvent: {}
+[2.105726] (-) TimerEvent: {}
+[2.205977] (-) TimerEvent: {}
+[2.306285] (-) TimerEvent: {}
+[2.406658] (-) TimerEvent: {}
+[2.506911] (-) TimerEvent: {}
+[2.607200] (-) TimerEvent: {}
+[2.707487] (-) TimerEvent: {}
+[2.807746] (-) TimerEvent: {}
+[2.908004] (-) TimerEvent: {}
+[3.008257] (-) TimerEvent: {}
+[3.108738] (-) TimerEvent: {}
+[3.209108] (-) TimerEvent: {}
+[3.309458] (-) TimerEvent: {}
+[3.409832] (-) TimerEvent: {}
+[3.510190] (-) TimerEvent: {}
+[3.610556] (-) TimerEvent: {}
+[3.710786] (-) TimerEvent: {}
+[3.811116] (-) TimerEvent: {}
+[3.911450] (-) TimerEvent: {}
+[4.011807] (-) TimerEvent: {}
+[4.112070] (-) TimerEvent: {}
+[4.212411] (-) TimerEvent: {}
+[4.312742] (-) TimerEvent: {}
+[4.413085] (-) TimerEvent: {}
+[4.513442] (-) TimerEvent: {}
+[4.613775] (-) TimerEvent: {}
+[4.714044] (-) TimerEvent: {}
+[4.814381] (-) TimerEvent: {}
+[4.914712] (-) TimerEvent: {}
+[5.014947] (-) TimerEvent: {}
+[5.115299] (-) TimerEvent: {}
+[5.215662] (-) TimerEvent: {}
+[5.284413] (amr_cpp_examples) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable simple_subscriber\x1b[0m\n'}
+[5.315879] (-) TimerEvent: {}
+[5.416307] (-) TimerEvent: {}
+[5.516672] (-) TimerEvent: {}
+[5.530496] (amr_cpp_examples) StdoutLine: {'line': b'[100%] Built target simple_subscriber\n'}
+[5.538730] (amr_cpp_examples) CommandEnded: {'returncode': 0}
+[5.539741] (amr_cpp_examples) JobProgress: {'identifier': 'amr_cpp_examples', 'progress': 'install'}
+[5.545473] (amr_cpp_examples) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/skytold/workspace/amr_ws/build/amr_cpp_examples'], 'cwd': '/home/skytold/workspace/amr_ws/build/amr_cpp_examples', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', '06b09900fdd4'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/skytold'), ('OLDPWD', '/home/skytold/workspace/amr_ws/install'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/home/skytold/workspace/amr_ws/install'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/run/user/1000/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '1'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YI6ED3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/skytold/workspace/amr_ws/install/amr_py_examples:/home/skytold/workspace/amr_ws/install/amr_cpp_examples:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/skytold/workspace/amr_ws/build/amr_cpp_examples'), ('PYTHONPATH', '/home/skytold/workspace/amr_ws/install/amr_py_examples/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/skytold/workspace/amr_ws/install/amr_cpp_examples:/home/skytold/workspace/amr_ws/install/amr_py_examples:/opt/ros/humble')]), 'shell': False}
+[5.552751] (amr_cpp_examples) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.552967] (amr_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/lib/amr_cpp_examples/simple_publisher\n'}
+[5.553014] (amr_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/lib/amr_cpp_examples/simple_subscriber\n'}
+[5.554837] (amr_cpp_examples) StdoutLine: {'line': b'-- Set runtime path of "/home/skytold/workspace/amr_ws/install/amr_cpp_examples/lib/amr_cpp_examples/simple_subscriber" to ""\n'}
+[5.554964] (amr_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/ament_index/resource_index/package_run_dependencies/amr_cpp_examples\n'}
+[5.555051] (amr_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/ament_index/resource_index/parent_prefix_path/amr_cpp_examples\n'}
+[5.555094] (amr_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/environment/ament_prefix_path.sh\n'}
+[5.555138] (amr_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/environment/ament_prefix_path.dsv\n'}
+[5.555226] (amr_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/environment/path.sh\n'}
+[5.555273] (amr_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/environment/path.dsv\n'}
+[5.555354] (amr_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/local_setup.bash\n'}
+[5.555397] (amr_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/local_setup.sh\n'}
+[5.555438] (amr_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/local_setup.zsh\n'}
+[5.555479] (amr_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/local_setup.dsv\n'}
+[5.555543] (amr_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/package.dsv\n'}
+[5.555722] (amr_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/ament_index/resource_index/packages/amr_cpp_examples\n'}
+[5.555779] (amr_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/cmake/amr_cpp_examplesConfig.cmake\n'}
+[5.555822] (amr_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/cmake/amr_cpp_examplesConfig-version.cmake\n'}
+[5.555862] (amr_cpp_examples) StdoutLine: {'line': b'-- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/package.xml\n'}
+[5.557199] (amr_cpp_examples) CommandEnded: {'returncode': 0}
+[5.565526] (amr_cpp_examples) JobEnded: {'identifier': 'amr_cpp_examples', 'rc': 0}
+[5.566167] (-) EventReactorShutdown: {}

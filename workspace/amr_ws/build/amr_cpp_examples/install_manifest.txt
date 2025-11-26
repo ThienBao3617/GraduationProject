@@ -1,0 +1,17 @@
+/home/skytold/workspace/amr_ws/install/amr_cpp_examples/lib/amr_cpp_examples/simple_publisher
+/home/skytold/workspace/amr_ws/install/amr_cpp_examples/lib/amr_cpp_examples/simple_subscriber
+/home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/ament_index/resource_index/package_run_dependencies/amr_cpp_examples
+/home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/ament_index/resource_index/parent_prefix_path/amr_cpp_examples
+/home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/environment/ament_prefix_path.sh
+/home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/environment/ament_prefix_path.dsv
+/home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/environment/path.sh
+/home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/environment/path.dsv
+/home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/local_setup.bash
+/home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/local_setup.sh
+/home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/local_setup.zsh
+/home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/local_setup.dsv
+/home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/package.dsv
+/home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/ament_index/resource_index/packages/amr_cpp_examples
+/home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/cmake/amr_cpp_examplesConfig.cmake
+/home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/cmake/amr_cpp_examplesConfig-version.cmake
+/home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/package.xml

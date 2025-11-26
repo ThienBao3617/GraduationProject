@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/amr_py_examples/amr_py_examples.egg-info
+writing ../../build/amr_py_examples/amr_py_examples.egg-info/PKG-INFO
+writing dependency_links to ../../build/amr_py_examples/amr_py_examples.egg-info/dependency_links.txt
+writing entry points to ../../build/amr_py_examples/amr_py_examples.egg-info/entry_points.txt
+writing requirements to ../../build/amr_py_examples/amr_py_examples.egg-info/requires.txt
+writing top-level names to ../../build/amr_py_examples/amr_py_examples.egg-info/top_level.txt
+writing manifest file '../../build/amr_py_examples/amr_py_examples.egg-info/SOURCES.txt'
+reading manifest file '../../build/amr_py_examples/amr_py_examples.egg-info/SOURCES.txt'
+writing manifest file '../../build/amr_py_examples/amr_py_examples.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/skytold/workspace/amr_ws/build/amr_py_examples/build
+creating /home/skytold/workspace/amr_ws/build/amr_py_examples/build/lib
+creating /home/skytold/workspace/amr_ws/build/amr_py_examples/build/lib/amr_py_examples
+copying amr_py_examples/__init__.py -> /home/skytold/workspace/amr_ws/build/amr_py_examples/build/lib/amr_py_examples
+running install
+running install_lib
+creating /home/skytold/workspace/amr_ws/install/amr_py_examples/lib/python3.10/site-packages/amr_py_examples
+copying /home/skytold/workspace/amr_ws/build/amr_py_examples/build/lib/amr_py_examples/__init__.py -> /home/skytold/workspace/amr_ws/install/amr_py_examples/lib/python3.10/site-packages/amr_py_examples
+byte-compiling /home/skytold/workspace/amr_ws/install/amr_py_examples/lib/python3.10/site-packages/amr_py_examples/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/skytold/workspace/amr_ws/install/amr_py_examples/share/ament_index
+creating /home/skytold/workspace/amr_ws/install/amr_py_examples/share/ament_index/resource_index
+creating /home/skytold/workspace/amr_ws/install/amr_py_examples/share/ament_index/resource_index/packages
+copying resource/amr_py_examples -> /home/skytold/workspace/amr_ws/install/amr_py_examples/share/ament_index/resource_index/packages
+copying package.xml -> /home/skytold/workspace/amr_ws/install/amr_py_examples/share/amr_py_examples
+running install_egg_info
+Copying ../../build/amr_py_examples/amr_py_examples.egg-info to /home/skytold/workspace/amr_ws/install/amr_py_examples/lib/python3.10/site-packages/amr_py_examples-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/skytold/workspace/amr_ws/build/amr_py_examples/install.log'

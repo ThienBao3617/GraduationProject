@@ -1,0 +1,86 @@
+[0.000000] (-) TimerEvent: {}
+[0.000221] (amr_py_examples) JobQueued: {'identifier': 'amr_py_examples', 'dependencies': OrderedDict()}
+[0.000242] (bumperbot_cpp_examples) JobQueued: {'identifier': 'bumperbot_cpp_examples', 'dependencies': OrderedDict()}
+[0.000421] (amr_py_examples) JobStarted: {'identifier': 'amr_py_examples'}
+[0.006062] (bumperbot_cpp_examples) JobStarted: {'identifier': 'bumperbot_cpp_examples'}
+[0.099837] (-) TimerEvent: {}
+[0.170042] (bumperbot_cpp_examples) JobProgress: {'identifier': 'bumperbot_cpp_examples', 'progress': 'cmake'}
+[0.170403] (bumperbot_cpp_examples) Command: {'cmd': ['/usr/bin/cmake', '/home/skytold/workspace/amr_ws/src/amr_cpp_examples', '-DCMAKE_INSTALL_PREFIX=/home/skytold/workspace/amr_ws/install/bumperbot_cpp_examples'], 'cwd': '/home/skytold/workspace/amr_ws/build/bumperbot_cpp_examples', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', '06b09900fdd4'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/skytold'), ('OLDPWD', '/home/skytold/workspace/amr_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/home/skytold/workspace/amr_ws/install'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/run/user/1000/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '1'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YI6ED3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/skytold/workspace/amr_ws/install/amr_py_examples:/home/skytold/workspace/amr_ws/install/amr_cpp_examples:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/skytold/workspace/amr_ws/build/bumperbot_cpp_examples'), ('PYTHONPATH', '/home/skytold/workspace/amr_ws/install/amr_py_examples/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/skytold/workspace/amr_ws/install/amr_cpp_examples:/home/skytold/workspace/amr_ws/install/amr_py_examples:/opt/ros/humble')]), 'shell': False}
+[0.199954] (-) TimerEvent: {}
+[0.219789] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.263748] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.269761] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300088] (-) TimerEvent: {}
+[0.331480] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.336551] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.336683] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.336946] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.339219] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.377794] (amr_py_examples) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/amr_py_examples', 'build', '--build-base', '/home/skytold/workspace/amr_ws/build/amr_py_examples/build', 'install', '--record', '/home/skytold/workspace/amr_ws/build/amr_py_examples/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/skytold/workspace/amr_ws/src/amr_py_examples', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'HOSTNAME': '06b09900fdd4', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/skytold', 'OLDPWD': '/home/skytold/workspace/amr_ws/src', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'COLCON_PREFIX_PATH': '/home/skytold/workspace/amr_ws/install', 'ROS_DISTRO': 'humble', 'PULSE_SERVER': 'unix:/run/user/1000/pulse/native', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '1', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YI6ED3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '42', 'AMENT_PREFIX_PATH': '/home/skytold/workspace/amr_ws/install/amr_py_examples:/home/skytold/workspace/amr_ws/install/amr_cpp_examples:/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/skytold/workspace/amr_ws/build/amr_py_examples', 'PYTHONPATH': '/home/skytold/workspace/amr_ws/build/amr_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skytold/workspace/amr_ws/install/amr_py_examples/lib/python3.10/site-packages:/home/skytold/workspace/amr_ws/install/amr_py_examples/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/skytold/workspace/amr_ws/install/amr_cpp_examples'}, 'shell': False}
+[0.400210] (-) TimerEvent: {}
+[0.407359] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.413113] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.413427] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.413599] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.415285] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500359] (-) TimerEvent: {}
+[0.549148] (amr_py_examples) StdoutLine: {'line': b'running egg_info\n'}
+[0.549617] (amr_py_examples) StdoutLine: {'line': b'writing ../../build/amr_py_examples/amr_py_examples.egg-info/PKG-INFO\n'}
+[0.549960] (amr_py_examples) StdoutLine: {'line': b'writing dependency_links to ../../build/amr_py_examples/amr_py_examples.egg-info/dependency_links.txt\n'}
+[0.550088] (amr_py_examples) StdoutLine: {'line': b'writing entry points to ../../build/amr_py_examples/amr_py_examples.egg-info/entry_points.txt\n'}
+[0.550184] (amr_py_examples) StdoutLine: {'line': b'writing requirements to ../../build/amr_py_examples/amr_py_examples.egg-info/requires.txt\n'}
+[0.550271] (amr_py_examples) StdoutLine: {'line': b'writing top-level names to ../../build/amr_py_examples/amr_py_examples.egg-info/top_level.txt\n'}
+[0.551014] (amr_py_examples) StdoutLine: {'line': b"reading manifest file '../../build/amr_py_examples/amr_py_examples.egg-info/SOURCES.txt'\n"}
+[0.551420] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.551618] (amr_py_examples) StdoutLine: {'line': b"writing manifest file '../../build/amr_py_examples/amr_py_examples.egg-info/SOURCES.txt'\n"}
+[0.551727] (amr_py_examples) StdoutLine: {'line': b'running build\n'}
+[0.551818] (amr_py_examples) StdoutLine: {'line': b'running build_py\n'}
+[0.551999] (amr_py_examples) StdoutLine: {'line': b'running install\n'}
+[0.552125] (amr_py_examples) StdoutLine: {'line': b'running install_lib\n'}
+[0.552722] (amr_py_examples) StdoutLine: {'line': b'running install_data\n'}
+[0.552850] (amr_py_examples) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.553916] (amr_py_examples) StdoutLine: {'line': b"removing '/home/skytold/workspace/amr_ws/install/amr_py_examples/lib/python3.10/site-packages/amr_py_examples-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.554116] (amr_py_examples) StdoutLine: {'line': b'Copying ../../build/amr_py_examples/amr_py_examples.egg-info to /home/skytold/workspace/amr_ws/install/amr_py_examples/lib/python3.10/site-packages/amr_py_examples-0.0.0-py3.10.egg-info\n'}
+[0.554539] (amr_py_examples) StdoutLine: {'line': b'running install_scripts\n'}
+[0.569529] (amr_py_examples) StdoutLine: {'line': b'Installing simple_publisher script to /home/skytold/workspace/amr_ws/install/amr_py_examples/lib/amr_py_examples\n'}
+[0.569771] (amr_py_examples) StdoutLine: {'line': b"writing list of installed files to '/home/skytold/workspace/amr_ws/build/amr_py_examples/install.log'\n"}
+[0.586547] (amr_py_examples) CommandEnded: {'returncode': 0}
+[0.593174] (amr_py_examples) JobEnded: {'identifier': 'amr_py_examples', 'rc': 0}
+[0.600470] (-) TimerEvent: {}
+[0.617896] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.673538] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.677512] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.684712] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.695219] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.700730] (-) TimerEvent: {}
+[0.708681] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.746595] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.748720] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800889] (-) TimerEvent: {}
+[0.847259] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.872708] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.901025] (-) TimerEvent: {}
+[0.913477] (bumperbot_cpp_examples) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.921580] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.001263] (-) TimerEvent: {}
+[1.028534] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.028841] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.101401] (-) TimerEvent: {}
+[1.137848] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.139229] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.201487] (-) TimerEvent: {}
+[1.276326] (bumperbot_cpp_examples) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):\n'}
+[1.276505] (bumperbot_cpp_examples) StderrLine: {'line': b"  ament_package_xml() package name 'bumperbot_cpp_examples' in '/package.xml'\n"}
+[1.276541] (bumperbot_cpp_examples) StderrLine: {'line': b"  does not match current PROJECT_NAME 'amr_cpp_examples'.  You must call\n"}
+[1.276571] (bumperbot_cpp_examples) StderrLine: {'line': b'  project() with the same package name before.\n'}
+[1.276827] (bumperbot_cpp_examples) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.276882] (bumperbot_cpp_examples) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)\n'}
+[1.276914] (bumperbot_cpp_examples) StderrLine: {'line': b'  CMakeLists.txt:24 (ament_package)\n'}
+[1.276943] (bumperbot_cpp_examples) StderrLine: {'line': b'\n'}
+[1.276970] (bumperbot_cpp_examples) StderrLine: {'line': b'\x1b[0m\n'}
+[1.276996] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.277029] (bumperbot_cpp_examples) StdoutLine: {'line': b'See also "/home/skytold/workspace/amr_ws/build/bumperbot_cpp_examples/CMakeFiles/CMakeOutput.log".\n'}
+[1.283882] (bumperbot_cpp_examples) CommandEnded: {'returncode': 1}
+[1.299349] (bumperbot_cpp_examples) JobEnded: {'identifier': 'bumperbot_cpp_examples', 'rc': 1}
+[1.301626] (-) TimerEvent: {}
+[1.309986] (-) EventReactorShutdown: {}

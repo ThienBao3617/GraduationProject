@@ -1,0 +1,38 @@
+[0.010s] Invoking command in '/home/skytold/workspace/amr_ws/build/amr_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/skytold/workspace/amr_ws/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/skytold/workspace/amr_ws/build/amr_cpp_examples -- -j20 -l20
+[0.029s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.122s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.142s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.143s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.147s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.153s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.162s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.183s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.184s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.273s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.354s] -- Configuring done
+[0.359s] -- Generating done
+[0.362s] -- Build files have been written to: /home/skytold/workspace/amr_ws/build/amr_cpp_examples
+[0.389s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[3.301s] [100%] [32m[1mLinking CXX executable simple_publisher[0m
+[3.459s] [100%] Built target simple_publisher
+[3.470s] Invoked command in '/home/skytold/workspace/amr_ws/build/amr_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/skytold/workspace/amr_ws/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/skytold/workspace/amr_ws/build/amr_cpp_examples -- -j20 -l20
+[3.480s] Invoking command in '/home/skytold/workspace/amr_ws/build/amr_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/skytold/workspace/amr_ws/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/skytold/workspace/amr_ws/build/amr_cpp_examples
+[3.490s] -- Install configuration: ""
+[3.490s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/lib/amr_cpp_examples/simple_publisher
+[3.491s] -- Set runtime path of "/home/skytold/workspace/amr_ws/install/amr_cpp_examples/lib/amr_cpp_examples/simple_publisher" to ""
+[3.492s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/ament_index/resource_index/package_run_dependencies/amr_cpp_examples
+[3.492s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/ament_index/resource_index/parent_prefix_path/amr_cpp_examples
+[3.492s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/environment/ament_prefix_path.sh
+[3.492s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/environment/ament_prefix_path.dsv
+[3.492s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/environment/path.sh
+[3.492s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/environment/path.dsv
+[3.492s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/local_setup.bash
+[3.492s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/local_setup.sh
+[3.493s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/local_setup.zsh
+[3.493s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/local_setup.dsv
+[3.493s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/package.dsv
+[3.493s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/ament_index/resource_index/packages/amr_cpp_examples
+[3.493s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/cmake/amr_cpp_examplesConfig.cmake
+[3.493s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/cmake/amr_cpp_examplesConfig-version.cmake
+[3.493s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/package.xml
+[3.495s] Invoked command in '/home/skytold/workspace/amr_ws/build/amr_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/skytold/workspace/amr_ws/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/skytold/workspace/amr_ws/build/amr_cpp_examples

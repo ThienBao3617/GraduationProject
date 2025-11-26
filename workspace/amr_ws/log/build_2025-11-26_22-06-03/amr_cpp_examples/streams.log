@@ -1,0 +1,1 @@
+[0.018s] Invoking command in '/home/skytold/workspace/amr_ws/build/amr_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/skytold/workspace/amr_ws/build/amr_cpp_examples -- -j20 -l20
