@@ -9,6 +9,7 @@ setup.py
 ../../build/amr_py_examples/amr_py_examples.egg-info/top_level.txt
 ../../build/amr_py_examples/amr_py_examples.egg-info/zip-safe
 amr_py_examples/__init__.py
+amr_py_examples/simple_parameter.py
 amr_py_examples/simple_publisher.py
 amr_py_examples/simple_subscriber.py
 resource/amr_py_examples

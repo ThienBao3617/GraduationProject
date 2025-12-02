@@ -26,6 +26,7 @@ setup(
         'console_scripts': [
             'simple_publisher = amr_py_examples.simple_publisher:main',
             'simple_subscriber = amr_py_examples.simple_subscriber:main',
+            'simple_parameter = amr_py_examples.simple_parameter:main',
         ],
     },
 )

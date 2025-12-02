@@ -43,6 +43,13 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_description" TYPE DIRECTORY FILES
+    "/home/skytold/workspace/amr_ws/src/amr_description/meshes"
+    "/home/skytold/workspace/amr_ws/src/amr_description/urdf"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/skytold/workspace/amr_ws/build/amr_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/amr_description")
 endif()
 

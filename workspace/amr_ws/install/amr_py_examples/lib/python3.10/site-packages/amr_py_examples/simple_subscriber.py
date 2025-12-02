@@ -3,11 +3,11 @@ from rclpy.node import Node
 from std_msgs.msg import String
 
 
-class SimpleListener(Node):
+class SimpleSubscriber(Node):
 
     def __init__(self):
-        super().__init__("simple_listener")
-        self.sub_ = self.create_listener(String, "chatter", self.msgCallback, 10)
+        super().__init__("simple_subscriber")
+        self.sub_ = self.create_subscription(String, "chatter", self.msgCallback, 10)
         self.sub_
 
     def msgCallback(self, msg):
@@ -17,10 +17,10 @@ class SimpleListener(Node):
 def main():
     rclpy.init()
 
-    simple_listener = SimpleListener()
-    rclpy.spin(simple_listener)
+    simple_publisher = SimpleSubscriber()
+    rclpy.spin(simple_publisher)
     
-    simple_listener.destroy_node()
+    simple_publisher.destroy_node()
     rclpy.shutdown()
 
 
