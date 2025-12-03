@@ -46,6 +46,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/amr_description" TYPE DIRECTORY FILES
     "/home/skytold/workspace/amr_ws/src/amr_description/meshes"
     "/home/skytold/workspace/amr_ws/src/amr_description/urdf"
+    "/home/skytold/workspace/amr_ws/src/amr_description/launch"
+    "/home/skytold/workspace/amr_ws/src/amr_description/rviz"
     )
 endif()
 

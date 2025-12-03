@@ -5,6 +5,8 @@
 /home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/meshes/imu_link.STL
 /home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/meshes/caster_front_link.STL
 /home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/urdf/amr.urdf.xacro
+/home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/launch/display.launch.py
+/home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/rviz/display.rviz
 /home/skytold/workspace/amr_ws/install/amr_description/share/ament_index/resource_index/package_run_dependencies/amr_description
 /home/skytold/workspace/amr_ws/install/amr_description/share/ament_index/resource_index/parent_prefix_path/amr_description
 /home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/environment/ament_prefix_path.sh
