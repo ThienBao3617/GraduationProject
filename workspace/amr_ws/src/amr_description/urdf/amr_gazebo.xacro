@@ -42,4 +42,14 @@
     <maxVel>1.0</maxVel>
   </gazebo>
 
+  <!-- ROS 2 Control -->
+  <!-- ROS 2 Humble -->
+  <gazebo>
+    <xacro:if value="$(arg is_ignition)">
+      <plugin filename="ign_ros2_control-system" name="ign_ros2_control::IgnitionROS2ControlPlugin">
+        <parameters>$(find amr_controller)/config/amr_controllers.yaml</parameters>
+      </plugin>
+    </xacro:if>
+  </gazebo>
+
 </robot>

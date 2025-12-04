@@ -1,0 +1,17 @@
+/home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/config/amr_controllers.yaml
+/home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/launch/controller.launch.py
+/home/skytold/workspace/amr_ws/install/amr_controller/share/ament_index/resource_index/package_run_dependencies/amr_controller
+/home/skytold/workspace/amr_ws/install/amr_controller/share/ament_index/resource_index/parent_prefix_path/amr_controller
+/home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/environment/ament_prefix_path.sh
+/home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/environment/ament_prefix_path.dsv
+/home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/environment/path.sh
+/home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/environment/path.dsv
+/home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/local_setup.bash
+/home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/local_setup.sh
+/home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/local_setup.zsh
+/home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/local_setup.dsv
+/home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/package.dsv
+/home/skytold/workspace/amr_ws/install/amr_controller/share/ament_index/resource_index/packages/amr_controller
+/home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/cmake/amr_controllerConfig.cmake
+/home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/cmake/amr_controllerConfig-version.cmake
+/home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/package.xml

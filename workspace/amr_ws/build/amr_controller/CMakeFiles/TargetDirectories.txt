@@ -1,0 +1,9 @@
+/home/skytold/workspace/amr_ws/build/amr_controller/CMakeFiles/uninstall.dir
+/home/skytold/workspace/amr_ws/build/amr_controller/CMakeFiles/amr_controller_uninstall.dir
+/home/skytold/workspace/amr_ws/build/amr_controller/CMakeFiles/test.dir
+/home/skytold/workspace/amr_ws/build/amr_controller/CMakeFiles/edit_cache.dir
+/home/skytold/workspace/amr_ws/build/amr_controller/CMakeFiles/rebuild_cache.dir
+/home/skytold/workspace/amr_ws/build/amr_controller/CMakeFiles/list_install_components.dir
+/home/skytold/workspace/amr_ws/build/amr_controller/CMakeFiles/install.dir
+/home/skytold/workspace/amr_ws/build/amr_controller/CMakeFiles/install/local.dir
+/home/skytold/workspace/amr_ws/build/amr_controller/CMakeFiles/install/strip.dir
