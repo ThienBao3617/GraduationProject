@@ -12,6 +12,7 @@ amr_py_examples/__init__.py
 amr_py_examples/simple_parameter.py
 amr_py_examples/simple_publisher.py
 amr_py_examples/simple_subscriber.py
+amr_py_examples/simple_turtlesim_kinematics.py
 resource/amr_py_examples
 test/test_copyright.py
 test/test_flake8.py
