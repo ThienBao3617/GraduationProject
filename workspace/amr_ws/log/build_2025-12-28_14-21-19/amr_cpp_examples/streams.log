@@ -1,0 +1,23 @@
+[0.021s] Invoking command in '/home/skytold/workspace/amr_ws/build/amr_cpp_examples': AMENT_PREFIX_PATH=/home/skytold/workspace/amr_ws/install/amr_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/skytold/workspace/amr_ws/install/amr_msgs:/home/skytold/workspace/amr_ws/install/amr_description:/home/skytold/workspace/amr_ws/install/amr_cpp_examples:/home/skytold/workspace/amr_ws/install/amr_controller:/home/skytold/workspace/amr_ws/install/amr_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/skytold/workspace/amr_ws/install/amr_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/skytold/workspace/amr_ws/install/amr_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/skytold/workspace/amr_ws/build/amr_cpp_examples -- -j20 -l20
+[0.063s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.284s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.329s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.333s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.343s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.359s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.378s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.426s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.429s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.629s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.742s] -- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)
+[0.830s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.831s]   ament_target_dependencies() the passed package name 'amr_msgs' was not
+[0.831s]   found before
+[0.831s] Call Stack (most recent call first):
+[0.831s]   CMakeLists.txt:35 (ament_target_dependencies)
+[0.831s] 
+[0.831s] [0m
+[0.832s] -- Configuring incomplete, errors occurred!
+[0.832s] See also "/home/skytold/workspace/amr_ws/build/amr_cpp_examples/CMakeFiles/CMakeOutput.log".
+[0.851s] gmake: *** [Makefile:390: cmake_check_build_system] Error 1
+[0.858s] Invoked command in '/home/skytold/workspace/amr_ws/build/amr_cpp_examples' returned '2': AMENT_PREFIX_PATH=/home/skytold/workspace/amr_ws/install/amr_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/skytold/workspace/amr_ws/install/amr_msgs:/home/skytold/workspace/amr_ws/install/amr_description:/home/skytold/workspace/amr_ws/install/amr_cpp_examples:/home/skytold/workspace/amr_ws/install/amr_controller:/home/skytold/workspace/amr_ws/install/amr_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/skytold/workspace/amr_ws/install/amr_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/skytold/workspace/amr_ws/install/amr_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/skytold/workspace/amr_ws/build/amr_cpp_examples -- -j20 -l20

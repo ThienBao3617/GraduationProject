@@ -1,0 +1,48 @@
+[0.056s] Invoking command in '/home/skytold/workspace/amr_ws/build/amr_cpp_examples': CMAKE_PREFIX_PATH=/home/skytold/workspace/amr_ws/install/amr_msgs:/home/skytold/workspace/amr_ws/install/amr_cpp_examples:/home/skytold/workspace/amr_ws/install/amr_description:/home/skytold/workspace/amr_ws/install/amr_controller:/home/skytold/workspace/amr_ws/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/skytold/workspace/amr_ws/build/amr_cpp_examples -- -j20 -l20
+[0.177s] [35m[1mConsolidate compiler generated dependencies of target simple_service_server[0m
+[0.178s] [35m[1mConsolidate compiler generated dependencies of target simple_subscriber[0m
+[0.178s] [35m[1mConsolidate compiler generated dependencies of target simple_tf_kinematics[0m
+[0.185s] [35m[1mConsolidate compiler generated dependencies of target simple_service_client[0m
+[0.218s] [ 14%] Built target simple_publisher
+[0.229s] [ 28%] Built target simple_turtlesim_kinematics
+[0.235s] [ 57%] Built target simple_service_server
+[0.236s] [ 57%] Built target simple_parameter
+[0.238s] [ 71%] Built target simple_subscriber
+[0.239s] [ 78%] [32mBuilding CXX object CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o[0m
+[0.248s] [ 92%] Built target simple_service_client
+[10.272s] [100%] [32m[1mLinking CXX executable simple_tf_kinematics[0m
+[10.849s] [100%] Built target simple_tf_kinematics
+[10.878s] Invoked command in '/home/skytold/workspace/amr_ws/build/amr_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/home/skytold/workspace/amr_ws/install/amr_msgs:/home/skytold/workspace/amr_ws/install/amr_cpp_examples:/home/skytold/workspace/amr_ws/install/amr_description:/home/skytold/workspace/amr_ws/install/amr_controller:/home/skytold/workspace/amr_ws/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/skytold/workspace/amr_ws/build/amr_cpp_examples -- -j20 -l20
+[10.881s] Invoking command in '/home/skytold/workspace/amr_ws/build/amr_cpp_examples': CMAKE_PREFIX_PATH=/home/skytold/workspace/amr_ws/install/amr_msgs:/home/skytold/workspace/amr_ws/install/amr_cpp_examples:/home/skytold/workspace/amr_ws/install/amr_description:/home/skytold/workspace/amr_ws/install/amr_controller:/home/skytold/workspace/amr_ws/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/skytold/workspace/amr_ws/build/amr_cpp_examples
+[10.900s] -- Install configuration: ""
+[10.900s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/include/include
+[10.900s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/include/include/amr_cpp_examples
+[10.900s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/include/include/amr_cpp_examples/simple_tf_kinematics.hpp
+[10.901s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/include/include/amr_cpp_examples/simple_turtlesim_kinematics.hpp
+[10.901s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/lib/amr_cpp_examples/simple_publisher
+[10.901s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/lib/amr_cpp_examples/simple_subscriber
+[10.909s] -- Set runtime path of "/home/skytold/workspace/amr_ws/install/amr_cpp_examples/lib/amr_cpp_examples/simple_subscriber" to ""
+[10.909s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/lib/amr_cpp_examples/simple_parameter
+[10.910s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/lib/amr_cpp_examples/simple_turtlesim_kinematics
+[10.910s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/lib/amr_cpp_examples/simple_service_server
+[10.913s] -- Set runtime path of "/home/skytold/workspace/amr_ws/install/amr_cpp_examples/lib/amr_cpp_examples/simple_service_server" to ""
+[10.913s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/lib/amr_cpp_examples/simple_service_client
+[10.915s] -- Set runtime path of "/home/skytold/workspace/amr_ws/install/amr_cpp_examples/lib/amr_cpp_examples/simple_service_client" to ""
+[10.915s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/lib/amr_cpp_examples/simple_tf_kinematics
+[10.917s] -- Set runtime path of "/home/skytold/workspace/amr_ws/install/amr_cpp_examples/lib/amr_cpp_examples/simple_tf_kinematics" to ""
+[10.918s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/ament_index/resource_index/package_run_dependencies/amr_cpp_examples
+[10.918s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/ament_index/resource_index/parent_prefix_path/amr_cpp_examples
+[10.918s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/environment/ament_prefix_path.sh
+[10.918s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/environment/ament_prefix_path.dsv
+[10.918s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/environment/path.sh
+[10.919s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/environment/path.dsv
+[10.919s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/local_setup.bash
+[10.919s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/local_setup.sh
+[10.919s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/local_setup.zsh
+[10.919s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/local_setup.dsv
+[10.919s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/package.dsv
+[10.919s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/ament_index/resource_index/packages/amr_cpp_examples
+[10.920s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/cmake/amr_cpp_examplesConfig.cmake
+[10.920s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/cmake/amr_cpp_examplesConfig-version.cmake
+[10.920s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/package.xml
+[10.924s] Invoked command in '/home/skytold/workspace/amr_ws/build/amr_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/home/skytold/workspace/amr_ws/install/amr_msgs:/home/skytold/workspace/amr_ws/install/amr_cpp_examples:/home/skytold/workspace/amr_ws/install/amr_description:/home/skytold/workspace/amr_ws/install/amr_controller:/home/skytold/workspace/amr_ws/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/skytold/workspace/amr_ws/build/amr_cpp_examples

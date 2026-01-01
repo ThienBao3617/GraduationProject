@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "amr_msgs__py",
+		"source" : "/home/skytold/workspace/amr_ws/build/amr_msgs/amr_msgs__py"
+	}
+}

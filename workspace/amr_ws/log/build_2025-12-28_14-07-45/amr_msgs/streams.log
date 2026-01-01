@@ -1,0 +1,253 @@
+[0.024s] Invoking command in '/home/skytold/workspace/amr_ws/build/amr_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/skytold/workspace/amr_ws/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/skytold/workspace/amr_ws/build/amr_msgs -- -j20 -l20
+[0.070s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.340s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.459s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.478s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.506s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.533s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.567s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.643s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.610s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.012s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.243s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.279s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.282s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.326s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.326s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.326s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.326s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.365s] -- Found PythonExtra: .so  
+[3.533s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.567s] -- Added test 'lint_cmake' to check CMake code style
+[3.569s] -- Added test 'xmllint' to check XML markup files
+[3.575s] -- Configuring done
+[3.680s] -- Generating done
+[3.716s] -- Build files have been written to: /home/skytold/workspace/amr_ws/build/amr_msgs
+[3.802s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.841s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.865s] [  5%] Built target ament_cmake_python_copy_amr_msgs
+[4.536s] running egg_info
+[4.538s] creating amr_msgs.egg-info
+[4.539s] writing amr_msgs.egg-info/PKG-INFO
+[4.540s] writing dependency_links to amr_msgs.egg-info/dependency_links.txt
+[4.540s] writing top-level names to amr_msgs.egg-info/top_level.txt
+[4.541s] writing manifest file 'amr_msgs.egg-info/SOURCES.txt'
+[4.546s] reading manifest file 'amr_msgs.egg-info/SOURCES.txt'
+[4.548s] writing manifest file 'amr_msgs.egg-info/SOURCES.txt'
+[4.626s] [  5%] Built target ament_cmake_python_build_amr_msgs_egg
+[4.906s] [  7%] [32mBuilding C object CMakeFiles/amr_msgs__rosidl_generator_c.dir/rosidl_generator_c/amr_msgs/srv/detail/add_two_ints__functions.c.o[0m
+[4.908s] [ 10%] [32mBuilding C object CMakeFiles/amr_msgs__rosidl_generator_c.dir/rosidl_generator_c/amr_msgs/srv/detail/get_transform__functions.c.o[0m
+[4.926s] [ 10%] Built target amr_msgs__cpp
+[4.961s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.963s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.964s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.129s] [ 20%] [32m[1mLinking C shared library libamr_msgs__rosidl_generator_c.so[0m
+[5.258s] [ 20%] Built target amr_msgs__rosidl_generator_c
+[5.287s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.289s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.290s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.792s] [ 30%] [32mBuilding CXX object CMakeFiles/amr_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/amr_msgs/srv/add_two_ints__type_support.cpp.o[0m
+[5.792s] [ 33%] [32mBuilding CXX object CMakeFiles/amr_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/amr_msgs/srv/get_transform__type_support.cpp.o[0m
+[5.970s] [ 35%] [32mBuilding CXX object CMakeFiles/amr_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/amr_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o[0m
+[5.977s] [ 38%] [32mBuilding CXX object CMakeFiles/amr_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/amr_msgs/srv/detail/dds_fastrtps/get_transform__type_support.cpp.o[0m
+[5.990s] [ 41%] [32mBuilding CXX object CMakeFiles/amr_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/amr_msgs/srv/detail/get_transform__type_support.cpp.o[0m
+[5.991s] [ 43%] [32mBuilding CXX object CMakeFiles/amr_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/amr_msgs/srv/detail/add_two_ints__type_support.cpp.o[0m
+[6.118s] [ 46%] [32mBuilding CXX object CMakeFiles/amr_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/amr_msgs/srv/get_transform__type_support.cpp.o[0m
+[6.124s] [ 48%] [32mBuilding CXX object CMakeFiles/amr_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/amr_msgs/srv/add_two_ints__type_support.cpp.o[0m
+[6.225s] [ 51%] [32m[1mLinking CXX shared library libamr_msgs__rosidl_typesupport_c.so[0m
+[6.229s] [ 53%] [32mBuilding C object CMakeFiles/amr_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/amr_msgs/srv/detail/add_two_ints__type_support.c.o[0m
+[6.229s] [ 56%] [32mBuilding C object CMakeFiles/amr_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/amr_msgs/srv/detail/get_transform__type_support.c.o[0m
+[6.235s] [ 58%] [32mBuilding CXX object CMakeFiles/amr_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/amr_msgs/srv/detail/get_transform__type_support_c.cpp.o[0m
+[6.237s] [ 61%] [32mBuilding CXX object CMakeFiles/amr_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/amr_msgs/srv/detail/add_two_ints__type_support_c.cpp.o[0m
+[6.339s] [ 64%] [32m[1mLinking C shared library libamr_msgs__rosidl_typesupport_introspection_c.so[0m
+[6.368s] [ 64%] Built target amr_msgs__rosidl_typesupport_c
+[6.456s] [ 64%] Built target amr_msgs__rosidl_typesupport_introspection_c
+[6.671s] [ 66%] [32m[1mLinking CXX shared library libamr_msgs__rosidl_typesupport_cpp.so[0m
+[6.797s] [ 66%] Built target amr_msgs__rosidl_typesupport_cpp
+[7.178s] [ 69%] [32m[1mLinking CXX shared library libamr_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[7.216s] [ 71%] [32m[1mLinking CXX shared library libamr_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[7.279s] [ 74%] [32m[1mLinking CXX shared library libamr_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.363s] [ 74%] Built target amr_msgs__rosidl_typesupport_fastrtps_c
+[7.378s] [ 74%] Built target amr_msgs__rosidl_typesupport_introspection_cpp
+[7.451s] [ 74%] Built target amr_msgs__rosidl_typesupport_fastrtps_cpp
+[7.497s] [ 74%] Built target amr_msgs
+[7.561s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.686s] [ 76%] Built target amr_msgs__py
+[8.726s] [ 79%] [32mBuilding C object CMakeFiles/amr_msgs__rosidl_generator_py.dir/rosidl_generator_py/amr_msgs/srv/_add_two_ints_s.c.o[0m
+[8.727s] [ 82%] [32mBuilding C object CMakeFiles/amr_msgs__rosidl_generator_py.dir/rosidl_generator_py/amr_msgs/srv/_get_transform_s.c.o[0m
+[9.013s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/amr_msgs/libamr_msgs__rosidl_generator_py.so[0m
+[9.084s] [ 84%] Built target amr_msgs__rosidl_generator_py
+[9.120s] [ 87%] [32mBuilding C object CMakeFiles/amr_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/amr_msgs/_amr_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.120s] [ 89%] [32mBuilding C object CMakeFiles/amr_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/amr_msgs/_amr_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[9.123s] [ 92%] [32mBuilding C object CMakeFiles/amr_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/amr_msgs/_amr_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.316s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/amr_msgs/amr_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.316s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/amr_msgs/amr_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.320s] [100%] [32m[1mLinking C shared library rosidl_generator_py/amr_msgs/amr_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.399s] [100%] Built target amr_msgs__rosidl_typesupport_fastrtps_c__pyext
+[9.400s] [100%] Built target amr_msgs__rosidl_typesupport_introspection_c__pyext
+[9.402s] [100%] Built target amr_msgs__rosidl_typesupport_c__pyext
+[9.424s] Invoked command in '/home/skytold/workspace/amr_ws/build/amr_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/skytold/workspace/amr_ws/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/skytold/workspace/amr_ws/build/amr_msgs -- -j20 -l20
+[9.426s] Invoking command in '/home/skytold/workspace/amr_ws/build/amr_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/skytold/workspace/amr_ws/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/skytold/workspace/amr_ws/build/amr_msgs
+[9.438s] -- Install configuration: ""
+[9.439s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/ament_index/resource_index/rosidl_interfaces/amr_msgs
+[9.439s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs
+[9.439s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/msg
+[9.439s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/msg/rosidl_generator_c__visibility_control.h
+[9.439s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv
+[9.439s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail
+[9.439s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/get_transform__struct.h
+[9.439s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/add_two_ints__struct.h
+[9.440s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/get_transform__type_support.h
+[9.440s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/add_two_ints__type_support.h
+[9.440s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/add_two_ints__functions.c
+[9.440s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/add_two_ints__functions.h
+[9.440s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/get_transform__functions.c
+[9.440s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/get_transform__functions.h
+[9.440s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/add_two_ints.h
+[9.440s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/get_transform.h
+[9.440s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/environment/library_path.sh
+[9.441s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/environment/library_path.dsv
+[9.441s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/lib/libamr_msgs__rosidl_generator_c.so
+[9.441s] -- Set runtime path of "/home/skytold/workspace/amr_ws/install/amr_msgs/lib/libamr_msgs__rosidl_generator_c.so" to ""
+[9.441s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs
+[9.441s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/msg
+[9.441s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.441s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv
+[9.441s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail
+[9.441s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[9.441s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/get_transform__rosidl_typesupport_fastrtps_c.h
+[9.441s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/lib/libamr_msgs__rosidl_typesupport_fastrtps_c.so
+[9.442s] -- Set runtime path of "/home/skytold/workspace/amr_ws/install/amr_msgs/lib/libamr_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[9.442s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs
+[9.442s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/msg
+[9.442s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[9.442s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv
+[9.442s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/add_two_ints.hpp
+[9.442s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail
+[9.442s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/get_transform__type_support.hpp
+[9.442s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/get_transform__struct.hpp
+[9.442s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/get_transform__builder.hpp
+[9.442s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/add_two_ints__builder.hpp
+[9.442s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/add_two_ints__struct.hpp
+[9.442s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/add_two_ints__type_support.hpp
+[9.443s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/get_transform__traits.hpp
+[9.443s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/add_two_ints__traits.hpp
+[9.443s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/get_transform.hpp
+[9.443s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs
+[9.443s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/msg
+[9.443s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.443s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv
+[9.443s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail
+[9.443s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/get_transform__rosidl_typesupport_fastrtps_cpp.hpp
+[9.443s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[9.443s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/dds_fastrtps
+[9.443s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/lib/libamr_msgs__rosidl_typesupport_fastrtps_cpp.so
+[9.444s] -- Set runtime path of "/home/skytold/workspace/amr_ws/install/amr_msgs/lib/libamr_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.444s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs
+[9.444s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/msg
+[9.444s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.444s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv
+[9.444s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail
+[9.444s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/get_transform__type_support.c
+[9.444s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/add_two_ints__type_support.c
+[9.444s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/get_transform__rosidl_typesupport_introspection_c.h
+[9.444s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[9.444s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/lib/libamr_msgs__rosidl_typesupport_introspection_c.so
+[9.445s] -- Set runtime path of "/home/skytold/workspace/amr_ws/install/amr_msgs/lib/libamr_msgs__rosidl_typesupport_introspection_c.so" to ""
+[9.445s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/lib/libamr_msgs__rosidl_typesupport_c.so
+[9.445s] -- Set runtime path of "/home/skytold/workspace/amr_ws/install/amr_msgs/lib/libamr_msgs__rosidl_typesupport_c.so" to ""
+[9.445s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs
+[9.445s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv
+[9.445s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail
+[9.445s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/get_transform__type_support.cpp
+[9.445s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/get_transform__rosidl_typesupport_introspection_cpp.hpp
+[9.446s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[9.446s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/include/amr_msgs/amr_msgs/srv/detail/add_two_ints__type_support.cpp
+[9.446s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/lib/libamr_msgs__rosidl_typesupport_introspection_cpp.so
+[9.446s] -- Set runtime path of "/home/skytold/workspace/amr_ws/install/amr_msgs/lib/libamr_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[9.446s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/lib/libamr_msgs__rosidl_typesupport_cpp.so
+[9.446s] -- Set runtime path of "/home/skytold/workspace/amr_ws/install/amr_msgs/lib/libamr_msgs__rosidl_typesupport_cpp.so" to ""
+[9.447s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/environment/pythonpath.sh
+[9.447s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/environment/pythonpath.dsv
+[9.447s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs-0.0.0-py3.10.egg-info
+[9.447s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[9.447s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[9.447s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[9.447s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[9.447s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs
+[9.447s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/amr_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.448s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/__init__.py
+[9.448s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/_amr_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.448s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/amr_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.448s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/_amr_msgs_s.ep.rosidl_typesupport_c.c
+[9.448s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/_amr_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[9.448s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/libamr_msgs__rosidl_generator_py.so
+[9.448s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/srv
+[9.448s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/srv/_add_two_ints_s.c
+[9.448s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/srv/_get_transform_s.c
+[9.449s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/srv/__init__.py
+[9.449s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/srv/_add_two_ints.py
+[9.449s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/srv/_get_transform.py
+[9.449s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/amr_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.506s] Listing '/home/skytold/workspace/amr_ws/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs'...
+[9.506s] Compiling '/home/skytold/workspace/amr_ws/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/__init__.py'...
+[9.506s] Listing '/home/skytold/workspace/amr_ws/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/srv'...
+[9.506s] Compiling '/home/skytold/workspace/amr_ws/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/srv/__init__.py'...
+[9.506s] Compiling '/home/skytold/workspace/amr_ws/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/srv/_add_two_ints.py'...
+[9.506s] Compiling '/home/skytold/workspace/amr_ws/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/srv/_get_transform.py'...
+[9.512s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/amr_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.512s] -- Set runtime path of "/home/skytold/workspace/amr_ws/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/amr_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.513s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/amr_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.513s] -- Set runtime path of "/home/skytold/workspace/amr_ws/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/amr_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.513s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/amr_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.514s] -- Set runtime path of "/home/skytold/workspace/amr_ws/install/amr_msgs/local/lib/python3.10/dist-packages/amr_msgs/amr_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.514s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/lib/libamr_msgs__rosidl_generator_py.so
+[9.514s] -- Set runtime path of "/home/skytold/workspace/amr_ws/install/amr_msgs/lib/libamr_msgs__rosidl_generator_py.so" to ""
+[9.515s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/srv/AddTwoInts.idl
+[9.515s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/srv/GetTransform.idl
+[9.516s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/srv/AddTwoInts.srv
+[9.516s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/srv/AddTwoInts_Request.msg
+[9.516s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/srv/AddTwoInts_Response.msg
+[9.516s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/srv/GetTransform.srv
+[9.516s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/srv/GetTransform_Request.msg
+[9.517s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/srv/GetTransform_Response.msg
+[9.517s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/ament_index/resource_index/package_run_dependencies/amr_msgs
+[9.517s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_msgs/share/ament_index/resource_index/parent_prefix_path/amr_msgs
+[9.517s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/environment/ament_prefix_path.sh
+[9.517s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/environment/ament_prefix_path.dsv
+[9.517s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/environment/path.sh
+[9.518s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/environment/path.dsv
+[9.518s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/local_setup.bash
+[9.518s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/local_setup.sh
+[9.518s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/local_setup.zsh
+[9.518s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/local_setup.dsv
+[9.519s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/package.dsv
+[9.519s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_msgs/share/ament_index/resource_index/packages/amr_msgs
+[9.519s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/cmake/export_amr_msgs__rosidl_generator_cExport.cmake
+[9.519s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/cmake/export_amr_msgs__rosidl_generator_cExport-noconfig.cmake
+[9.519s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/cmake/export_amr_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[9.520s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/cmake/export_amr_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.520s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/cmake/export_amr_msgs__rosidl_generator_cppExport.cmake
+[9.520s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/cmake/export_amr_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.520s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/cmake/export_amr_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.520s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/cmake/amr_msgs__rosidl_typesupport_introspection_cExport.cmake
+[9.520s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/cmake/amr_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.521s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/cmake/amr_msgs__rosidl_typesupport_cExport.cmake
+[9.521s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/cmake/amr_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[9.521s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/cmake/amr_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[9.521s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/cmake/amr_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.521s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/cmake/amr_msgs__rosidl_typesupport_cppExport.cmake
+[9.521s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/cmake/amr_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[9.522s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/cmake/export_amr_msgs__rosidl_generator_pyExport.cmake
+[9.522s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/cmake/export_amr_msgs__rosidl_generator_pyExport-noconfig.cmake
+[9.522s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/cmake/rosidl_cmake-extras.cmake
+[9.522s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.522s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.522s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[9.522s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[9.522s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.522s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.522s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/cmake/amr_msgsConfig.cmake
+[9.522s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/cmake/amr_msgsConfig-version.cmake
+[9.522s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/package.xml
+[9.525s] Invoked command in '/home/skytold/workspace/amr_ws/build/amr_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/skytold/workspace/amr_ws/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/skytold/workspace/amr_ws/build/amr_msgs

@@ -1,5 +1,8 @@
 /home/skytold/workspace/amr_ws/build/amr_controller/CMakeFiles/uninstall.dir
 /home/skytold/workspace/amr_ws/build/amr_controller/CMakeFiles/amr_controller_uninstall.dir
+/home/skytold/workspace/amr_ws/build/amr_controller/CMakeFiles/simple_controller.dir
+/home/skytold/workspace/amr_ws/build/amr_controller/CMakeFiles/ament_cmake_python_copy_amr_controller.dir
+/home/skytold/workspace/amr_ws/build/amr_controller/CMakeFiles/ament_cmake_python_build_amr_controller_egg.dir
 /home/skytold/workspace/amr_ws/build/amr_controller/CMakeFiles/test.dir
 /home/skytold/workspace/amr_ws/build/amr_controller/CMakeFiles/edit_cache.dir
 /home/skytold/workspace/amr_ws/build/amr_controller/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,319 @@
+[0.351s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.351s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x748c35971e70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x748c35a82d70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x748c35a82d70>>, mixin_verb=('build',))
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.679s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/skytold/workspace/amr_ws'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.698s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.699s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_controller) by extension 'ignore'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_controller) by extension 'ignore_ament_install'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_controller) by extensions ['colcon_pkg']
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_controller) by extension 'colcon_pkg'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_controller) by extensions ['colcon_meta']
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_controller) by extension 'colcon_meta'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_controller) by extensions ['ros']
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_controller) by extension 'ros'
+[0.705s] DEBUG:colcon.colcon_core.package_identification:Package 'src/amr_controller' with type 'ros.ament_cmake' and name 'amr_controller'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_cpp_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_cpp_examples) by extension 'ignore'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_cpp_examples) by extension 'ignore_ament_install'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_cpp_examples) by extensions ['colcon_pkg']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_cpp_examples) by extension 'colcon_pkg'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_cpp_examples) by extensions ['colcon_meta']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_cpp_examples) by extension 'colcon_meta'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_cpp_examples) by extensions ['ros']
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_cpp_examples) by extension 'ros'
+[0.707s] DEBUG:colcon.colcon_core.package_identification:Package 'src/amr_cpp_examples' with type 'ros.ament_cmake' and name 'amr_cpp_examples'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_description) by extensions ['ignore', 'ignore_ament_install']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_description) by extension 'ignore'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_description) by extension 'ignore_ament_install'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_description) by extensions ['colcon_pkg']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_description) by extension 'colcon_pkg'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_description) by extensions ['colcon_meta']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_description) by extension 'colcon_meta'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_description) by extensions ['ros']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_description) by extension 'ros'
+[0.710s] DEBUG:colcon.colcon_core.package_identification:Package 'src/amr_description' with type 'ros.ament_cmake' and name 'amr_description'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_py_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_py_examples) by extension 'ignore'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_py_examples) by extension 'ignore_ament_install'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_py_examples) by extensions ['colcon_pkg']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_py_examples) by extension 'colcon_pkg'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_py_examples) by extensions ['colcon_meta']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_py_examples) by extension 'colcon_meta'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_py_examples) by extensions ['ros']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_py_examples) by extension 'ros'
+[0.712s] DEBUG:colcon.colcon_core.package_identification:Package 'src/amr_py_examples' with type 'ros.ament_python' and name 'amr_py_examples'
+[0.712s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.712s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.712s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.712s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.712s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.762s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.763s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.766s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/skytold/workspace/amr_ws/install
+[0.769s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 380 installed packages in /opt/ros/humble
+[0.771s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.829s] Level 5:colcon.colcon_core.verb:set package 'amr_controller' build argument 'cmake_args' from command line to 'None'
+[0.829s] Level 5:colcon.colcon_core.verb:set package 'amr_controller' build argument 'cmake_target' from command line to 'None'
+[0.829s] Level 5:colcon.colcon_core.verb:set package 'amr_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.829s] Level 5:colcon.colcon_core.verb:set package 'amr_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.829s] Level 5:colcon.colcon_core.verb:set package 'amr_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.829s] Level 5:colcon.colcon_core.verb:set package 'amr_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.829s] Level 5:colcon.colcon_core.verb:set package 'amr_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.829s] Level 5:colcon.colcon_core.verb:set package 'amr_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.829s] Level 5:colcon.colcon_core.verb:set package 'amr_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.829s] DEBUG:colcon.colcon_core.verb:Building package 'amr_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/skytold/workspace/amr_ws/build/amr_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/skytold/workspace/amr_ws/install/amr_controller', 'merge_install': False, 'path': '/home/skytold/workspace/amr_ws/src/amr_controller', 'symlink_install': False, 'test_result_base': None}
+[0.829s] Level 5:colcon.colcon_core.verb:set package 'amr_cpp_examples' build argument 'cmake_args' from command line to 'None'
+[0.829s] Level 5:colcon.colcon_core.verb:set package 'amr_cpp_examples' build argument 'cmake_target' from command line to 'None'
+[0.830s] Level 5:colcon.colcon_core.verb:set package 'amr_cpp_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.830s] Level 5:colcon.colcon_core.verb:set package 'amr_cpp_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.830s] Level 5:colcon.colcon_core.verb:set package 'amr_cpp_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.830s] Level 5:colcon.colcon_core.verb:set package 'amr_cpp_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.830s] Level 5:colcon.colcon_core.verb:set package 'amr_cpp_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.830s] Level 5:colcon.colcon_core.verb:set package 'amr_cpp_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.830s] Level 5:colcon.colcon_core.verb:set package 'amr_cpp_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.830s] DEBUG:colcon.colcon_core.verb:Building package 'amr_cpp_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/skytold/workspace/amr_ws/build/amr_cpp_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/skytold/workspace/amr_ws/install/amr_cpp_examples', 'merge_install': False, 'path': '/home/skytold/workspace/amr_ws/src/amr_cpp_examples', 'symlink_install': False, 'test_result_base': None}
+[0.830s] Level 5:colcon.colcon_core.verb:set package 'amr_description' build argument 'cmake_args' from command line to 'None'
+[0.830s] Level 5:colcon.colcon_core.verb:set package 'amr_description' build argument 'cmake_target' from command line to 'None'
+[0.830s] Level 5:colcon.colcon_core.verb:set package 'amr_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.830s] Level 5:colcon.colcon_core.verb:set package 'amr_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.830s] Level 5:colcon.colcon_core.verb:set package 'amr_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.830s] Level 5:colcon.colcon_core.verb:set package 'amr_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.830s] Level 5:colcon.colcon_core.verb:set package 'amr_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.830s] Level 5:colcon.colcon_core.verb:set package 'amr_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.830s] Level 5:colcon.colcon_core.verb:set package 'amr_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.830s] DEBUG:colcon.colcon_core.verb:Building package 'amr_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/skytold/workspace/amr_ws/build/amr_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/skytold/workspace/amr_ws/install/amr_description', 'merge_install': False, 'path': '/home/skytold/workspace/amr_ws/src/amr_description', 'symlink_install': False, 'test_result_base': None}
+[0.831s] Level 5:colcon.colcon_core.verb:set package 'amr_py_examples' build argument 'cmake_args' from command line to 'None'
+[0.831s] Level 5:colcon.colcon_core.verb:set package 'amr_py_examples' build argument 'cmake_target' from command line to 'None'
+[0.831s] Level 5:colcon.colcon_core.verb:set package 'amr_py_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.831s] Level 5:colcon.colcon_core.verb:set package 'amr_py_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.831s] Level 5:colcon.colcon_core.verb:set package 'amr_py_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.831s] Level 5:colcon.colcon_core.verb:set package 'amr_py_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.831s] Level 5:colcon.colcon_core.verb:set package 'amr_py_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.831s] Level 5:colcon.colcon_core.verb:set package 'amr_py_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.831s] Level 5:colcon.colcon_core.verb:set package 'amr_py_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.831s] DEBUG:colcon.colcon_core.verb:Building package 'amr_py_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/skytold/workspace/amr_ws/build/amr_py_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/skytold/workspace/amr_ws/install/amr_py_examples', 'merge_install': False, 'path': '/home/skytold/workspace/amr_ws/src/amr_py_examples', 'symlink_install': False, 'test_result_base': None}
+[0.831s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.832s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.833s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/skytold/workspace/amr_ws/src/amr_controller' with build type 'ament_cmake'
+[0.833s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/skytold/workspace/amr_ws/src/amr_controller'
+[0.838s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.838s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.838s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.845s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/skytold/workspace/amr_ws/src/amr_cpp_examples' with build type 'ament_cmake'
+[0.845s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/skytold/workspace/amr_ws/src/amr_cpp_examples'
+[0.845s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.845s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.850s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/skytold/workspace/amr_ws/src/amr_description' with build type 'ament_cmake'
+[0.850s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/skytold/workspace/amr_ws/src/amr_description'
+[0.851s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.851s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.855s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/skytold/workspace/amr_ws/src/amr_py_examples' with build type 'ament_python'
+[0.856s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_py_examples', 'ament_prefix_path')
+[0.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skytold/workspace/amr_ws/install/amr_py_examples/share/amr_py_examples/hook/ament_prefix_path.ps1'
+[0.857s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/skytold/workspace/amr_ws/install/amr_py_examples/share/amr_py_examples/hook/ament_prefix_path.dsv'
+[0.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skytold/workspace/amr_ws/install/amr_py_examples/share/amr_py_examples/hook/ament_prefix_path.sh'
+[0.859s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.859s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/skytold/workspace/amr_ws/build/amr_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/skytold/workspace/amr_ws/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/skytold/workspace/amr_ws/build/amr_controller -- -j20 -l20
+[0.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/skytold/workspace/amr_ws/build/amr_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/skytold/workspace/amr_ws/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/skytold/workspace/amr_ws/build/amr_cpp_examples -- -j20 -l20
+[0.886s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/skytold/workspace/amr_ws/build/amr_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/skytold/workspace/amr_ws/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/skytold/workspace/amr_ws/build/amr_description -- -j20 -l20
+[1.362s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/skytold/workspace/amr_ws/src/amr_py_examples'
+[1.362s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.362s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.372s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/skytold/workspace/amr_ws/build/amr_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/skytold/workspace/amr_ws/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/skytold/workspace/amr_ws/build/amr_cpp_examples -- -j20 -l20
+[1.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/skytold/workspace/amr_ws/build/amr_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/skytold/workspace/amr_ws/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/skytold/workspace/amr_ws/build/amr_cpp_examples
+[1.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/skytold/workspace/amr_ws/build/amr_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/skytold/workspace/amr_ws/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/skytold/workspace/amr_ws/build/amr_description -- -j20 -l20
+[1.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/skytold/workspace/amr_ws/build/amr_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/skytold/workspace/amr_ws/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/skytold/workspace/amr_ws/build/amr_description
+[1.418s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amr_cpp_examples)
+[1.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/skytold/workspace/amr_ws/build/amr_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/skytold/workspace/amr_ws/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/skytold/workspace/amr_ws/build/amr_cpp_examples
+[1.430s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_cpp_examples' for CMake module files
+[1.432s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_cpp_examples' for CMake config files
+[1.432s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_cpp_examples', 'cmake_prefix_path')
+[1.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/hook/cmake_prefix_path.ps1'
+[1.434s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/hook/cmake_prefix_path.dsv'
+[1.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/hook/cmake_prefix_path.sh'
+[1.436s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_cpp_examples/lib'
+[1.436s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_cpp_examples/bin'
+[1.436s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_cpp_examples/lib/pkgconfig/amr_cpp_examples.pc'
+[1.437s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_cpp_examples/lib/python3.10/site-packages'
+[1.437s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_cpp_examples/bin'
+[1.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/package.ps1'
+[1.439s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/package.dsv'
+[1.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/package.sh'
+[1.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/package.bash'
+[1.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/package.zsh'
+[1.447s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/colcon-core/packages/amr_cpp_examples)
+[1.448s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amr_cpp_examples)
+[1.448s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_cpp_examples' for CMake module files
+[1.449s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_cpp_examples' for CMake config files
+[1.450s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_cpp_examples', 'cmake_prefix_path')
+[1.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/hook/cmake_prefix_path.ps1'
+[1.451s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/hook/cmake_prefix_path.dsv'
+[1.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/hook/cmake_prefix_path.sh'
+[1.452s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_cpp_examples/lib'
+[1.452s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_cpp_examples/bin'
+[1.452s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_cpp_examples/lib/pkgconfig/amr_cpp_examples.pc'
+[1.453s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_cpp_examples/lib/python3.10/site-packages'
+[1.453s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_cpp_examples/bin'
+[1.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/package.ps1'
+[1.455s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/package.dsv'
+[1.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/package.sh'
+[1.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/package.bash'
+[1.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/amr_cpp_examples/package.zsh'
+[1.457s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/skytold/workspace/amr_ws/install/amr_cpp_examples/share/colcon-core/packages/amr_cpp_examples)
+[1.458s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amr_description)
+[1.458s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_description' for CMake module files
+[1.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/skytold/workspace/amr_ws/build/amr_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/skytold/workspace/amr_ws/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/skytold/workspace/amr_ws/build/amr_description
+[1.460s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_description' for CMake config files
+[1.461s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_description', 'cmake_prefix_path')
+[1.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/hook/cmake_prefix_path.ps1'
+[1.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/hook/cmake_prefix_path.dsv'
+[1.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/hook/cmake_prefix_path.sh'
+[1.464s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_description/bin'
+[1.464s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_description/lib/pkgconfig/amr_description.pc'
+[1.464s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_description/lib/python3.10/site-packages'
+[1.465s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_description/bin'
+[1.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/package.ps1'
+[1.466s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/package.dsv'
+[1.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/package.sh'
+[1.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/package.bash'
+[1.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/package.zsh'
+[1.469s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/skytold/workspace/amr_ws/install/amr_description/share/colcon-core/packages/amr_description)
+[1.470s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amr_description)
+[1.471s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_description' for CMake module files
+[1.472s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_description' for CMake config files
+[1.472s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_description', 'cmake_prefix_path')
+[1.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/hook/cmake_prefix_path.ps1'
+[1.474s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/hook/cmake_prefix_path.dsv'
+[1.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/hook/cmake_prefix_path.sh'
+[1.475s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_description/bin'
+[1.476s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_description/lib/pkgconfig/amr_description.pc'
+[1.476s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_description/lib/python3.10/site-packages'
+[1.477s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_description/bin'
+[1.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/package.ps1'
+[1.478s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/package.dsv'
+[1.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/package.sh'
+[1.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/package.bash'
+[1.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/skytold/workspace/amr_ws/install/amr_description/share/amr_description/package.zsh'
+[1.482s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/skytold/workspace/amr_ws/install/amr_description/share/colcon-core/packages/amr_description)
+[1.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/skytold/workspace/amr_ws/build/amr_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/skytold/workspace/amr_ws/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/skytold/workspace/amr_ws/build/amr_controller -- -j20 -l20
+[1.654s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/skytold/workspace/amr_ws/build/amr_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/skytold/workspace/amr_ws/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/skytold/workspace/amr_ws/build/amr_controller
+[1.747s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amr_controller)
+[1.748s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_controller' for CMake module files
+[1.749s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/skytold/workspace/amr_ws/build/amr_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/skytold/workspace/amr_ws/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/skytold/workspace/amr_ws/build/amr_controller
+[1.750s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_controller' for CMake config files
+[1.751s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_controller', 'cmake_prefix_path')
+[1.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/hook/cmake_prefix_path.ps1'
+[1.753s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/hook/cmake_prefix_path.dsv'
+[1.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/hook/cmake_prefix_path.sh'
+[1.755s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_controller/lib'
+[1.755s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_controller/bin'
+[1.755s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_controller/lib/pkgconfig/amr_controller.pc'
+[1.755s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_controller/lib/python3.10/site-packages'
+[1.756s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_controller/bin'
+[1.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/package.ps1'
+[1.757s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/package.dsv'
+[1.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/package.sh'
+[1.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/package.bash'
+[1.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/package.zsh'
+[1.759s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/skytold/workspace/amr_ws/install/amr_controller/share/colcon-core/packages/amr_controller)
+[1.760s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amr_controller)
+[1.760s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_controller' for CMake module files
+[1.761s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_controller' for CMake config files
+[1.762s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_controller', 'cmake_prefix_path')
+[1.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/hook/cmake_prefix_path.ps1'
+[1.763s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/hook/cmake_prefix_path.dsv'
+[1.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/hook/cmake_prefix_path.sh'
+[1.764s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_controller/lib'
+[1.765s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_controller/bin'
+[1.765s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_controller/lib/pkgconfig/amr_controller.pc'
+[1.765s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_controller/lib/python3.10/site-packages'
+[1.765s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_controller/bin'
+[1.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/package.ps1'
+[1.767s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/package.dsv'
+[1.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/package.sh'
+[1.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/package.bash'
+[1.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/package.zsh'
+[1.769s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/skytold/workspace/amr_ws/install/amr_controller/share/colcon-core/packages/amr_controller)
+[2.149s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/skytold/workspace/amr_ws/src/amr_py_examples': PYTHONPATH=/home/skytold/workspace/amr_ws/build/amr_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skytold/workspace/amr_ws/install/amr_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amr_py_examples build --build-base /home/skytold/workspace/amr_ws/build/amr_py_examples/build install --record /home/skytold/workspace/amr_ws/build/amr_py_examples/install.log --single-version-externally-managed install_data
+[2.531s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_py_examples' for CMake module files
+[2.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/skytold/workspace/amr_ws/src/amr_py_examples' returned '0': PYTHONPATH=/home/skytold/workspace/amr_ws/build/amr_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skytold/workspace/amr_ws/install/amr_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amr_py_examples build --build-base /home/skytold/workspace/amr_ws/build/amr_py_examples/build install --record /home/skytold/workspace/amr_ws/build/amr_py_examples/install.log --single-version-externally-managed install_data
+[2.532s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_py_examples' for CMake config files
+[2.533s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_py_examples/lib'
+[2.534s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_py_examples/bin'
+[2.534s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_py_examples/lib/pkgconfig/amr_py_examples.pc'
+[2.534s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_py_examples/lib/python3.10/site-packages'
+[2.534s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_py_examples', 'pythonpath')
+[2.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skytold/workspace/amr_ws/install/amr_py_examples/share/amr_py_examples/hook/pythonpath.ps1'
+[2.535s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/skytold/workspace/amr_ws/install/amr_py_examples/share/amr_py_examples/hook/pythonpath.dsv'
+[2.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/skytold/workspace/amr_ws/install/amr_py_examples/share/amr_py_examples/hook/pythonpath.sh'
+[2.536s] Level 1:colcon.colcon_core.environment:checking '/home/skytold/workspace/amr_ws/install/amr_py_examples/bin'
+[2.536s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amr_py_examples)
+[2.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/skytold/workspace/amr_ws/install/amr_py_examples/share/amr_py_examples/package.ps1'
+[2.537s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/skytold/workspace/amr_ws/install/amr_py_examples/share/amr_py_examples/package.dsv'
+[2.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/skytold/workspace/amr_ws/install/amr_py_examples/share/amr_py_examples/package.sh'
+[2.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/skytold/workspace/amr_ws/install/amr_py_examples/share/amr_py_examples/package.bash'
+[2.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/skytold/workspace/amr_ws/install/amr_py_examples/share/amr_py_examples/package.zsh'
+[2.540s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/skytold/workspace/amr_ws/install/amr_py_examples/share/colcon-core/packages/amr_py_examples)
+[2.540s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.540s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.541s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.541s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.557s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.558s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.558s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.558s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.563s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[2.564s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.565s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/skytold/workspace/amr_ws/install/local_setup.ps1'
+[2.567s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/skytold/workspace/amr_ws/install/_local_setup_util_ps1.py'
+[2.570s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/skytold/workspace/amr_ws/install/setup.ps1'
+[2.572s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/skytold/workspace/amr_ws/install/local_setup.sh'
+[2.573s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/skytold/workspace/amr_ws/install/_local_setup_util_sh.py'
+[2.574s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/skytold/workspace/amr_ws/install/setup.sh'
+[2.577s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/skytold/workspace/amr_ws/install/local_setup.bash'
+[2.578s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/skytold/workspace/amr_ws/install/setup.bash'
+[2.580s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/skytold/workspace/amr_ws/install/local_setup.zsh'
+[2.581s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/skytold/workspace/amr_ws/install/setup.zsh'

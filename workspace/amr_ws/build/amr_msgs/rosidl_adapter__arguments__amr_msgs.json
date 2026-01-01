@@ -1,0 +1,7 @@
+{
+  "package_name": "amr_msgs",
+  "non_idl_tuples": [
+    "/home/skytold/workspace/amr_ws/src/amr_msgs:srv/AddTwoInts.srv",
+    "/home/skytold/workspace/amr_ws/src/amr_msgs:srv/GetTransform.srv"
+  ]
+}

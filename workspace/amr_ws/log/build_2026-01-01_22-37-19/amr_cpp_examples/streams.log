@@ -1,0 +1,32 @@
+[0.051s] Invoking command in '/home/skytold/workspace/amr_ws/build/amr_cpp_examples': CMAKE_PREFIX_PATH=/home/skytold/workspace/amr_ws/install/amr_msgs:/home/skytold/workspace/amr_ws/install/amr_cpp_examples:/home/skytold/workspace/amr_ws/install/amr_description:/home/skytold/workspace/amr_ws/install/amr_controller:/home/skytold/workspace/amr_ws/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/skytold/workspace/amr_ws/build/amr_cpp_examples -- -j20 -l20
+[0.113s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.485s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.563s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.570s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.586s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.611s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.644s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.730s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.737s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.073s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.209s] -- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)
+[1.297s] -- Found amr_msgs: 0.0.0 (/home/skytold/workspace/amr_ws/install/amr_msgs/share/amr_msgs/cmake)
+[1.383s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[1.422s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.863s] -- Configuring done
+[1.874s] [31mCMake Error at CMakeLists.txt:32 (add_executable):
+[1.874s]   Cannot find source file:
+[1.874s] 
+[1.874s]     src/simple_service_server.cpp
+[1.875s] 
+[1.875s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[1.875s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[1.875s] 
+[1.875s] [0m
+[1.876s] [31mCMake Error at CMakeLists.txt:32 (add_executable):
+[1.877s]   No SOURCES given to target: simple_service_server
+[1.877s] 
+[1.877s] [0m
+[1.877s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.897s] gmake: *** [Makefile:390: cmake_check_build_system] Error 1
+[1.904s] Invoked command in '/home/skytold/workspace/amr_ws/build/amr_cpp_examples' returned '2': CMAKE_PREFIX_PATH=/home/skytold/workspace/amr_ws/install/amr_msgs:/home/skytold/workspace/amr_ws/install/amr_cpp_examples:/home/skytold/workspace/amr_ws/install/amr_description:/home/skytold/workspace/amr_ws/install/amr_controller:/home/skytold/workspace/amr_ws/install/amr_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/skytold/workspace/amr_ws/build/amr_cpp_examples -- -j20 -l20

@@ -1,0 +1,55 @@
+[0.033s] Invoking command in '/home/skytold/workspace/amr_ws/build/amr_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/skytold/workspace/amr_ws/build/amr_controller -- -j20 -l20
+[0.201s] [  0%] Built target ament_cmake_python_copy_amr_controller
+[0.207s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[0.716s] running egg_info
+[0.718s] writing amr_controller.egg-info/PKG-INFO
+[0.719s] writing dependency_links to amr_controller.egg-info/dependency_links.txt
+[0.719s] writing top-level names to amr_controller.egg-info/top_level.txt
+[0.724s] reading manifest file 'amr_controller.egg-info/SOURCES.txt'
+[0.725s] writing manifest file 'amr_controller.egg-info/SOURCES.txt'
+[0.794s] [ 50%] Built target ament_cmake_python_build_amr_controller_egg
+[13.443s] [100%] [32m[1mLinking CXX executable simple_controller[0m
+[14.030s] [100%] Built target simple_controller
+[14.048s] Invoked command in '/home/skytold/workspace/amr_ws/build/amr_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/skytold/workspace/amr_ws/build/amr_controller -- -j20 -l20
+[14.052s] Invoking command in '/home/skytold/workspace/amr_ws/build/amr_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/skytold/workspace/amr_ws/build/amr_controller
+[14.064s] -- Install configuration: ""
+[14.065s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/environment/pythonpath.sh
+[14.065s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/environment/pythonpath.dsv
+[14.065s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_controller/local/lib/python3.10/dist-packages/amr_controller-0.0.0-py3.10.egg-info
+[14.065s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_controller/local/lib/python3.10/dist-packages/amr_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[14.065s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_controller/local/lib/python3.10/dist-packages/amr_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[14.065s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_controller/local/lib/python3.10/dist-packages/amr_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[14.065s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_controller/local/lib/python3.10/dist-packages/amr_controller-0.0.0-py3.10.egg-info/top_level.txt
+[14.066s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_controller/local/lib/python3.10/dist-packages/amr_controller
+[14.066s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_controller/local/lib/python3.10/dist-packages/amr_controller/simple_controller.py
+[14.066s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_controller/local/lib/python3.10/dist-packages/amr_controller/__init__.py
+[14.119s] Listing '/home/skytold/workspace/amr_ws/install/amr_controller/local/lib/python3.10/dist-packages/amr_controller'...
+[14.127s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_controller/include/include
+[14.127s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_controller/include/include/amr_controller
+[14.128s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_controller/include/include/amr_controller/simple_controller.hpp
+[14.128s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_controller/lib/amr_controller/simple_controller
+[14.134s] -- Set runtime path of "/home/skytold/workspace/amr_ws/install/amr_controller/lib/amr_controller/simple_controller" to ""
+[14.134s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/launch
+[14.135s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/launch/joystick_teleop.launch.py
+[14.135s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/launch/controller.launch.py
+[14.135s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/config
+[14.135s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/config/amr_controllers.yaml
+[14.135s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/config/joy_config.yaml
+[14.136s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/config/joy_teleop.yaml
+[14.136s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_controller/lib/amr_controller/simple_controller.py
+[14.136s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_controller/share/ament_index/resource_index/package_run_dependencies/amr_controller
+[14.136s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_controller/share/ament_index/resource_index/parent_prefix_path/amr_controller
+[14.136s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/environment/ament_prefix_path.sh
+[14.136s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/environment/ament_prefix_path.dsv
+[14.136s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/environment/path.sh
+[14.137s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/environment/path.dsv
+[14.137s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/local_setup.bash
+[14.137s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/local_setup.sh
+[14.137s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/local_setup.zsh
+[14.137s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/local_setup.dsv
+[14.137s] -- Installing: /home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/package.dsv
+[14.138s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_controller/share/ament_index/resource_index/packages/amr_controller
+[14.138s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/cmake/amr_controllerConfig.cmake
+[14.138s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/cmake/amr_controllerConfig-version.cmake
+[14.138s] -- Up-to-date: /home/skytold/workspace/amr_ws/install/amr_controller/share/amr_controller/package.xml
+[14.141s] Invoked command in '/home/skytold/workspace/amr_ws/build/amr_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/skytold/workspace/amr_ws/build/amr_controller

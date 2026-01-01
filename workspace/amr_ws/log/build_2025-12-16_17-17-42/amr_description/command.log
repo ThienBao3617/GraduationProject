@@ -1,0 +1,4 @@
+Invoking command in '/home/skytold/workspace/amr_ws/build/amr_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/skytold/workspace/amr_ws/build/amr_description -- -j20 -l20
+Invoked command in '/home/skytold/workspace/amr_ws/build/amr_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/skytold/workspace/amr_ws/build/amr_description -- -j20 -l20
+Invoking command in '/home/skytold/workspace/amr_ws/build/amr_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/skytold/workspace/amr_ws/build/amr_description
+Invoked command in '/home/skytold/workspace/amr_ws/build/amr_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/skytold/workspace/amr_ws/build/amr_description

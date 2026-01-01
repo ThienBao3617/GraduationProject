@@ -4,6 +4,9 @@
 /home/skytold/workspace/amr_ws/build/amr_cpp_examples/CMakeFiles/simple_subscriber.dir
 /home/skytold/workspace/amr_ws/build/amr_cpp_examples/CMakeFiles/simple_parameter.dir
 /home/skytold/workspace/amr_ws/build/amr_cpp_examples/CMakeFiles/simple_turtlesim_kinematics.dir
+/home/skytold/workspace/amr_ws/build/amr_cpp_examples/CMakeFiles/simple_service_server.dir
+/home/skytold/workspace/amr_ws/build/amr_cpp_examples/CMakeFiles/simple_service_client.dir
+/home/skytold/workspace/amr_ws/build/amr_cpp_examples/CMakeFiles/simple_tf_kinematics.dir
 /home/skytold/workspace/amr_ws/build/amr_cpp_examples/CMakeFiles/test.dir
 /home/skytold/workspace/amr_ws/build/amr_cpp_examples/CMakeFiles/edit_cache.dir
 /home/skytold/workspace/amr_ws/build/amr_cpp_examples/CMakeFiles/rebuild_cache.dir
