@@ -1,0 +1,27 @@
+[1.503s] Invoking command in '/home/skytold/workspace/amr_ws/src/amr_py_examples': CMAKE_PREFIX_PATH=/home/skytold/workspace/amr_ws/install/amr_msgs:/home/skytold/workspace/amr_ws/install/amr_cpp_examples:/home/skytold/workspace/amr_ws/install/amr_description:/home/skytold/workspace/amr_ws/install/amr_controller PYTHONPATH=/home/skytold/workspace/amr_ws/build/amr_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skytold/workspace/amr_ws/install/amr_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amr_py_examples build --build-base /home/skytold/workspace/amr_ws/build/amr_py_examples/build install --record /home/skytold/workspace/amr_ws/build/amr_py_examples/install.log --single-version-externally-managed install_data
+[2.193s] running egg_info
+[2.195s] writing ../../build/amr_py_examples/amr_py_examples.egg-info/PKG-INFO
+[2.195s] writing dependency_links to ../../build/amr_py_examples/amr_py_examples.egg-info/dependency_links.txt
+[2.196s] writing entry points to ../../build/amr_py_examples/amr_py_examples.egg-info/entry_points.txt
+[2.196s] writing requirements to ../../build/amr_py_examples/amr_py_examples.egg-info/requires.txt
+[2.196s] writing top-level names to ../../build/amr_py_examples/amr_py_examples.egg-info/top_level.txt
+[2.202s] reading manifest file '../../build/amr_py_examples/amr_py_examples.egg-info/SOURCES.txt'
+[2.204s] writing manifest file '../../build/amr_py_examples/amr_py_examples.egg-info/SOURCES.txt'
+[2.205s] running build
+[2.205s] running build_py
+[2.206s] running install
+[2.207s] running install_lib
+[2.211s] running install_data
+[2.211s] running install_egg_info
+[2.219s] removing '/home/skytold/workspace/amr_ws/install/amr_py_examples/lib/python3.10/site-packages/amr_py_examples-0.0.0-py3.10.egg-info' (and everything under it)
+[2.220s] Copying ../../build/amr_py_examples/amr_py_examples.egg-info to /home/skytold/workspace/amr_ws/install/amr_py_examples/lib/python3.10/site-packages/amr_py_examples-0.0.0-py3.10.egg-info
+[2.221s] running install_scripts
+[2.280s] Installing simple_parameter script to /home/skytold/workspace/amr_ws/install/amr_py_examples/lib/amr_py_examples
+[2.281s] Installing simple_publisher script to /home/skytold/workspace/amr_ws/install/amr_py_examples/lib/amr_py_examples
+[2.281s] Installing simple_service_client script to /home/skytold/workspace/amr_ws/install/amr_py_examples/lib/amr_py_examples
+[2.282s] Installing simple_service_server script to /home/skytold/workspace/amr_ws/install/amr_py_examples/lib/amr_py_examples
+[2.282s] Installing simple_subscriber script to /home/skytold/workspace/amr_ws/install/amr_py_examples/lib/amr_py_examples
+[2.282s] Installing simple_tf_kinematics script to /home/skytold/workspace/amr_ws/install/amr_py_examples/lib/amr_py_examples
+[2.282s] Installing simple_turtlesim_kinematics script to /home/skytold/workspace/amr_ws/install/amr_py_examples/lib/amr_py_examples
+[2.283s] writing list of installed files to '/home/skytold/workspace/amr_ws/build/amr_py_examples/install.log'
+[2.354s] Invoked command in '/home/skytold/workspace/amr_ws/src/amr_py_examples' returned '0': CMAKE_PREFIX_PATH=/home/skytold/workspace/amr_ws/install/amr_msgs:/home/skytold/workspace/amr_ws/install/amr_cpp_examples:/home/skytold/workspace/amr_ws/install/amr_description:/home/skytold/workspace/amr_ws/install/amr_controller PYTHONPATH=/home/skytold/workspace/amr_ws/build/amr_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/skytold/workspace/amr_ws/install/amr_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amr_py_examples build --build-base /home/skytold/workspace/amr_ws/build/amr_py_examples/build install --record /home/skytold/workspace/amr_ws/build/amr_py_examples/install.log --single-version-externally-managed install_data
