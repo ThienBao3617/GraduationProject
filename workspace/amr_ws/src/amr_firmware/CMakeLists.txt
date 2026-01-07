@@ -5,6 +5,7 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
+# ROS2 / ament
 find_package(ament_cmake REQUIRED)
 find_package(ament_cmake_python REQUIRED)
 find_package(rclcpp REQUIRED)
@@ -13,20 +14,39 @@ find_package(std_msgs REQUIRED)
 find_package(hardware_interface REQUIRED)
 find_package(pluginlib REQUIRED)
 find_package(rclcpp_lifecycle REQUIRED)
-find_package(PkgConfig)
-pkg_check_modules(SERIAL libserial)
+
+# libserial via pkg-config
+find_package(PkgConfig REQUIRED)
+pkg_check_modules(SERIAL REQUIRED libserial)
 
 ament_python_install_package(${PROJECT_NAME})
 
-add_library(${PROJECT_NAME} SHARED 
+# Shared library: amr_firmware
+add_library(${PROJECT_NAME} SHARED
   src/amr_interface.cpp
 )
-target_include_directories(${PROJECT_NAME} PRIVATE 
-  include
-  "${SERIAL_INCLUDE_DIRS}"
+
+target_include_directories(${PROJECT_NAME}
+  PRIVATE
+    include
+    ${SERIAL_INCLUDE_DIRS}
 )
+
+target_compile_options(${PROJECT_NAME}
+  PRIVATE
+    ${SERIAL_CFLAGS_OTHER}
+)
+
+target_link_directories(${PROJECT_NAME}
+  PRIVATE
+    ${SERIAL_LIBRARY_DIRS}
+)
+
+# IMPORTANT: use PLAIN signature (no PRIVATE/PUBLIC) to avoid conflict with ament_target_dependencies
 target_link_libraries(${PROJECT_NAME}
- "${SERIAL_LDFLAGS}")
+  ${SERIAL_LIBRARIES}
+)
+
 ament_target_dependencies(${PROJECT_NAME}
   hardware_interface
   pluginlib
@@ -36,20 +56,67 @@ ament_target_dependencies(${PROJECT_NAME}
 
 pluginlib_export_plugin_description_file(hardware_interface amr_interface.xml)
 
-add_executable(simple_serial_receiver src/simple_serial_receiver.cpp)
-ament_target_dependencies(simple_serial_receiver rclcpp std_msgs)
-target_include_directories(simple_serial_receiver PUBLIC
- "${SERIAL_INCLUDE_DIRS}")
+# Executable: simple_serial_receiver
+add_executable(simple_serial_receiver
+  src/simple_serial_receiver.cpp
+)
+
+target_include_directories(simple_serial_receiver
+  PRIVATE
+    ${SERIAL_INCLUDE_DIRS}
+)
+
+target_compile_options(simple_serial_receiver
+  PRIVATE
+    ${SERIAL_CFLAGS_OTHER}
+)
+
+target_link_directories(simple_serial_receiver
+  PRIVATE
+    ${SERIAL_LIBRARY_DIRS}
+)
+
+# PLAIN signature
 target_link_libraries(simple_serial_receiver
- "${SERIAL_LDFLAGS}")
+  ${SERIAL_LIBRARIES}
+)
 
-add_executable(simple_serial_transmitter src/simple_serial_transmitter.cpp)
-ament_target_dependencies(simple_serial_transmitter rclcpp std_msgs)
-target_include_directories(simple_serial_transmitter PUBLIC
- "${SERIAL_INCLUDE_DIRS}")
+ament_target_dependencies(simple_serial_receiver
+  rclcpp
+  std_msgs
+)
+
+# Executable: simple_serial_transmitter
+add_executable(simple_serial_transmitter
+  src/simple_serial_transmitter.cpp
+)
+
+target_include_directories(simple_serial_transmitter
+  PRIVATE
+    ${SERIAL_INCLUDE_DIRS}
+)
+
+target_compile_options(simple_serial_transmitter
+  PRIVATE
+    ${SERIAL_CFLAGS_OTHER}
+)
+
+target_link_directories(simple_serial_transmitter
+  PRIVATE
+    ${SERIAL_LIBRARY_DIRS}
+)
+
+# PLAIN signature
 target_link_libraries(simple_serial_transmitter
- "${SERIAL_LDFLAGS}")
+  ${SERIAL_LIBRARIES}
+)
 
+ament_target_dependencies(simple_serial_transmitter
+  rclcpp
+  std_msgs
+)
+
+# Install
 install(
   TARGETS ${PROJECT_NAME}
   DESTINATION lib
@@ -72,23 +139,15 @@ install(PROGRAMS
   DESTINATION lib/${PROJECT_NAME}
 )
 
-install(TARGETS
-  simple_serial_receiver
-  simple_serial_transmitter
-  ARCHIVE DESTINATION lib
-  LIBRARY DESTINATION lib
-  RUNTIME DESTINATION bin
-  DESTINATION lib/${PROJECT_NAME}
+install(
+  TARGETS
+    simple_serial_receiver
+    simple_serial_transmitter
+  RUNTIME DESTINATION lib/${PROJECT_NAME}
 )
 
-ament_export_include_directories(
-  include
-)
-
-ament_export_libraries(
-  ${PROJECT_NAME}
-)
-
+ament_export_include_directories(include)
+ament_export_libraries(${PROJECT_NAME})
 ament_export_dependencies(
   hardware_interface
   pluginlib
@@ -98,9 +157,7 @@ ament_export_dependencies(
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
-
   set(ament_cmake_copyright_FOUND TRUE)
-
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()

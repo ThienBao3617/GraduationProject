@@ -31,6 +31,7 @@ setup(
             'simple_service_server = amr_py_examples.simple_service_server:main',
             'simple_service_client = amr_py_examples.simple_service_client:main',
             'simple_tf_kinematics = amr_py_examples.simple_tf_kinematics:main',
+            'simple_lifecycle_node = amr_py_examples.simple_lifecycle_node:main',
         ],
     },
 )

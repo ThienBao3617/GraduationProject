@@ -13,9 +13,7 @@ def generate_launch_description():
             [
                 "xacro ",
                 os.path.join(
-                    get_package_share_directory("amr_description"),
-                    "urdf",
-                    "amr.urdf.xacro",
+                    get_package_share_directory("amr_description"), "urdf", "amr.urdf.xacro",
                 ),
                 " is_sim:=False"
             ]
@@ -43,9 +41,15 @@ def generate_launch_description():
         ],
     )
 
+    imu_driver_node = Node(
+        package="amr_firmware",
+        executable="mpu6050_driver.py"
+    )
+
     return LaunchDescription(
         [
             robot_state_publisher_node,
             controller_manager,
+            imu_driver_node
         ]
     )

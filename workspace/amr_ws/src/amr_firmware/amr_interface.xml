@@ -1,10 +1,9 @@
 <library path="amr_firmware">
     <class name="amr_firmware/AmrInterface"
-      type="amr_firmware::AmrInterface"
-      base_class_type="hardware_interface::SystemInterface"
-    >
-      <description>
-        Amr Hardware Interface
-      </description>
+           type="amr_firmware::AmrInterface"
+           base_class_type="hardware_interface::SystemInterface">
+        <description>
+            Amr hardware interface
+        </description>
     </class>
-  </library>
+</library>
