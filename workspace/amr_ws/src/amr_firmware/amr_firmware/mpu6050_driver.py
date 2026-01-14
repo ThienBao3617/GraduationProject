@@ -40,6 +40,7 @@ class MPU6050_Driver(Node):
         try:
             if not self.is_connected_:
                 self.init_i2c()
+                return
             
             # Read Accelerometer raw value
             acc_x = self.read_raw_data(ACCEL_XOUT_H)
@@ -77,14 +78,14 @@ class MPU6050_Driver(Node):
             self.is_connected_ = False
         
     def read_raw_data(self, addr):
-        # Accelero and Gyro value are 16-bit
+        #Accelero and Gyro value are 16-bit
         high = self.bus_.read_byte_data(DEVICE_ADDRESS, addr)
         low = self.bus_.read_byte_data(DEVICE_ADDRESS, addr+1)
         
-        # concatenate higher and lower value
+        #concatenate higher and lower value
         value = ((high << 8) | low)
             
-        # to get signed value from mpu6050
+        #to get signed value from mpu6050
         if(value > 32768):
             value = value - 65536
         return value

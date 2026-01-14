@@ -3,7 +3,7 @@
            type="amr_firmware::AmrInterface"
            base_class_type="hardware_interface::SystemInterface">
         <description>
-            Amr hardware interface
+            Amr Hardware Interface
         </description>
     </class>
 </library>
