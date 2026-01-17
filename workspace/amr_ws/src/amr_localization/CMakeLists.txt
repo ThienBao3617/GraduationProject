@@ -11,6 +11,8 @@ find_package(rclcpp REQUIRED)
 find_package(rclpy REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(tf2 REQUIRED)
 
 include_directories(include)
 
@@ -19,6 +21,9 @@ ament_target_dependencies(kalman_filter rclcpp nav_msgs sensor_msgs)
 
 add_executable(imu_republisher src/imu_republisher.cpp)
 ament_target_dependencies(imu_republisher rclcpp sensor_msgs)
+
+add_executable(odometry_motion_model src/odometry_motion_model.cpp)
+ament_target_dependencies(odometry_motion_model rclcpp nav_msgs geometry_msgs tf2)
 
 ament_python_install_package(${PROJECT_NAME})
 
@@ -30,6 +35,7 @@ install(
 install(TARGETS
   kalman_filter
   imu_republisher
+  odometry_motion_model
   DESTINATION lib/${PROJECT_NAME}
 )
 
@@ -41,6 +47,7 @@ install(
 install(PROGRAMS
   ${PROJECT_NAME}/kalman_filter.py
   ${PROJECT_NAME}/imu_republisher.py
+  ${PROJECT_NAME}/odometry_motion_model.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
