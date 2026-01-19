@@ -34,6 +34,8 @@ setup(
             'simple_lifecycle_node = amr_py_examples.simple_lifecycle_node:main',
             'simple_action_server = amr_py_examples.simple_action_server:main',
             'simple_action_client = amr_py_examples.simple_action_client:main',
+            'simple_qos_publisher = amr_py_examples.simple_qos_publisher:main',
+            'simple_qos_subscriber = amr_py_examples.simple_qos_subscriber:main',
         ],
     },
 )
