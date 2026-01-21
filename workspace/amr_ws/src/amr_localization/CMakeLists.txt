@@ -33,6 +33,13 @@ install(
 )
 
 install(TARGETS
+  odometry_motion_model
+  LIBRARY DESTINATION lib
+  ARCHIVE DESTINATION lib
+  RUNTIME DESTINATION bin
+)
+
+install(TARGETS
   kalman_filter
   imu_republisher
   odometry_motion_model
