@@ -20,6 +20,7 @@ namespace amr_firmware
         public:
             AmrInterface();
             virtual ~AmrInterface();
+            
             // Implementing rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface
             virtual CallbackReturn on_activate(const rclcpp_lifecycle::State &) override;
             virtual CallbackReturn on_deactivate(const rclcpp_lifecycle::State &) override;
