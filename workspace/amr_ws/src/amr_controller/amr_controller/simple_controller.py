@@ -34,7 +34,7 @@ class SimpleController(Node):
         self.theta_ = 0.0
 
         self.wheel_cmd_pub_ = self.create_publisher(Float64MultiArray, "simple_velocity_controller/commands", 10)
-        self.vel_sub_ = self.create_subscription(TwistStamped, "amr_controller/cmd_vel", self.velCallback, 10)
+        self.vel_sub_ = self.create_subscription(TwistStamped, "amr_controller/cmd_vel_unstamped", self.velCallback, 10)
         self.joint_sub_ = self.create_subscription(JointState,"joint_states", self.jointCallback, 10)        
         self.odom_pub_ = self.create_publisher(Odometry, "amr_controller/odom", 10)
 
